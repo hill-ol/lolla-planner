@@ -1,0 +1,60 @@
+.map-page {
+  display: flex;
+  flex-direction: column;
+  height: calc(100svh - var(--bottom-nav-height));
+  overflow: hidden;
+}
+
+.map-page__toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 16px 12px;
+}
+
+.map-page__amenities-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  background: var(--lolla-white);
+  border: 2.5px solid var(--lolla-black);
+  border-radius: var(--radius-pill);
+  font-family: var(--font-body);
+  font-weight: 800;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--lolla-black);
+  cursor: pointer;
+  transition: background-color var(--duration-base) var(--ease-snap);
+}
+
+.map-page__amenities-toggle--active {
+  background: var(--lolla-teal);
+}
+
+.map-page__wrapper {
+  flex: 1 1 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.map-page__content {
+  width: 100%;
+  height: 100%;
+}
+
+.map-page__canvas {
+  position: relative;
+}
+
+.map-page__image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-lg);
+  -webkit-user-drag: none;
+  user-select: none;
+}

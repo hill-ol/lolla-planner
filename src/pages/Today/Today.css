@@ -1,0 +1,54 @@
+.today-page__header {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.today-page__date {
+  margin: 0;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.75;
+}
+
+.today-page__banner {
+  margin-top: 14px;
+  padding: 12px 14px;
+  background: var(--lolla-black);
+  color: var(--lolla-white);
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.today-page__toggle {
+  margin: 14px 0 18px;
+}
+
+.today-page__section + .today-page__section {
+  margin-top: 22px;
+}
+
+.today-page__section-title {
+  font-size: 15px;
+  margin-bottom: 16px;
+}
+
+.today-page__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.today-page__empty {
+  margin: 0;
+  padding: 16px;
+  border: 2.5px dashed var(--lolla-black);
+  border-radius: var(--radius-md);
+  font-size: 13.5px;
+  font-weight: 600;
+  text-align: center;
+  opacity: 0.75;
+}
