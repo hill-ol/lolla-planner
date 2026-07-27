@@ -1,0 +1,10 @@
+.trains-page__tabs {
+  margin: 14px 0 16px;
+}
+
+.trains-page__cards {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
