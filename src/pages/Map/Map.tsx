@@ -11,7 +11,7 @@ import { useNow } from '../../lib/hooks/useNow';
 import { getTodayContext } from '../../lib/today';
 import { AMENITIES } from '../../lib/amenities';
 import { timeToMinutes } from '../../lib/format';
-import { getWalkingMinutes } from '../../lib/walking-times';
+import { getWalkingRange } from '../../lib/walking-times';
 import type { Stage } from '../../types';
 import mapImage from '../../assets/map.webp';
 import './Map.css';
@@ -40,7 +40,7 @@ export function MapPage() {
   const walkFromLastPick =
     selectedStage && lastPickArtist && lastPickArtist.stageId !== selectedStage.id
       ? {
-          minutes: getWalkingMinutes(lastPickArtist.stageId, selectedStage.id),
+          ...getWalkingRange(lastPickArtist.stageId, selectedStage.id),
           label: `from ${lastPickArtist.name}`,
         }
       : undefined;

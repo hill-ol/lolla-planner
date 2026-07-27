@@ -1,4 +1,5 @@
 import { turso } from '../turso/client';
+import { executeWrite } from '../turso/mutationQueue';
 import type { Song } from '../../types';
 import { createPolledStore } from '../turso/createPolledStore';
 
@@ -17,7 +18,7 @@ async function fetchAllSongs(): Promise<Song[]> {
   return result.rows.map(rowToSong);
 }
 
-const store = createPolledStore<Song>({ fetchAll: fetchAllSongs, pollMs: 5000 });
+const store = createPolledStore<Song>({ fetchAll: fetchAllSongs, pollMs: 5000, offlineCacheKey: 'songs' });
 
 export const subscribeSongs = store.subscribe;
 
@@ -28,15 +29,18 @@ export async function getSongsByArtist(artistId: string): Promise<Song[]> {
 
 export async function addSong(input: Omit<Song, 'id'>): Promise<Song> {
   const song: Song = { ...input, id: `sg-${crypto.randomUUID()}` };
-  await turso.execute({
-    sql: 'INSERT INTO songs (id, artistId, title, addedBy, source) VALUES (?, ?, ?, ?, ?)',
-    args: [song.id, song.artistId, song.title, song.addedBy, song.source],
-  });
+  await executeWrite('INSERT INTO songs (id, artistId, title, addedBy, source) VALUES (?, ?, ?, ?, ?)', [
+    song.id,
+    song.artistId,
+    song.title,
+    song.addedBy,
+    song.source,
+  ]);
   store.setCache([...store.getCache(), song]);
   return song;
 }
 
 export async function removeSong(id: string): Promise<void> {
-  await turso.execute({ sql: 'DELETE FROM songs WHERE id = ?', args: [id] });
+  await executeWrite('DELETE FROM songs WHERE id = ?', [id]);
   store.setCache(store.getCache().filter((song) => song.id !== id));
 }

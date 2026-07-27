@@ -2,16 +2,19 @@ import { Footprints } from 'lucide-react';
 import './WalkingBadge.css';
 
 interface WalkingBadgeProps {
-  minutes: number;
+  min: number;
+  max: number;
   label: string;
 }
 
-export function WalkingBadge({ minutes, label }: WalkingBadgeProps) {
+export function WalkingBadge({ min, max, label }: WalkingBadgeProps) {
+  const time = min === max ? `~${min}` : `${min}–${max}`;
+
   return (
     <div className="walking-badge">
       <Footprints size={13} strokeWidth={2.25} />
       <span>
-        ~{minutes} min walk {label}
+        {time} min walk {label}
       </span>
     </div>
   );

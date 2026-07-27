@@ -1,4 +1,5 @@
 import { turso } from '../turso/client';
+import { executeWrite } from '../turso/mutationQueue';
 import type { SchedulePick } from '../../types';
 import { createPolledStore } from '../turso/createPolledStore';
 
@@ -16,7 +17,11 @@ async function fetchAllSchedulePicks(): Promise<SchedulePick[]> {
   return result.rows.map(rowToSchedulePick);
 }
 
-const store = createPolledStore<SchedulePick>({ fetchAll: fetchAllSchedulePicks, pollMs: 5000 });
+const store = createPolledStore<SchedulePick>({
+  fetchAll: fetchAllSchedulePicks,
+  pollMs: 5000,
+  offlineCacheKey: 'schedule-picks',
+});
 
 export const subscribeSchedulePicks = store.subscribe;
 
@@ -31,27 +36,29 @@ export async function getSchedulePickForArtist(artistId: string): Promise<Schedu
 
 export async function addSchedulePick(input: Omit<SchedulePick, 'id'>): Promise<SchedulePick> {
   const pick: SchedulePick = { ...input, id: `sp-${crypto.randomUUID()}` };
-  await turso.execute({
-    sql: 'INSERT INTO schedule_picks (id, artistId, addedBy, note) VALUES (?, ?, ?, ?)',
-    args: [pick.id, pick.artistId, pick.addedBy, pick.note ?? null],
-  });
+  await executeWrite('INSERT INTO schedule_picks (id, artistId, addedBy, note) VALUES (?, ?, ?, ?)', [
+    pick.id,
+    pick.artistId,
+    pick.addedBy,
+    pick.note ?? null,
+  ]);
   store.setCache([...store.getCache(), pick]);
   return pick;
 }
 
 export async function removeSchedulePick(id: string): Promise<void> {
-  await turso.execute({ sql: 'DELETE FROM schedule_picks WHERE id = ?', args: [id] });
+  await executeWrite('DELETE FROM schedule_picks WHERE id = ?', [id]);
   store.setCache(store.getCache().filter((pick) => pick.id !== id));
 }
 
 export async function removeSchedulePickForArtist(artistId: string): Promise<void> {
-  await turso.execute({ sql: 'DELETE FROM schedule_picks WHERE artistId = ?', args: [artistId] });
+  await executeWrite('DELETE FROM schedule_picks WHERE artistId = ?', [artistId]);
   store.setCache(store.getCache().filter((pick) => pick.artistId !== artistId));
 }
 
 export async function updateSchedulePickNote(id: string, note: string): Promise<SchedulePick | undefined> {
   const trimmed = note.trim() || null;
-  await turso.execute({ sql: 'UPDATE schedule_picks SET note = ? WHERE id = ?', args: [trimmed, id] });
+  await executeWrite('UPDATE schedule_picks SET note = ? WHERE id = ?', [trimmed, id]);
   const next = store.getCache().map((pick) => (pick.id === id ? { ...pick, note: trimmed ?? undefined } : pick));
   store.setCache(next);
   return next.find((pick) => pick.id === id);

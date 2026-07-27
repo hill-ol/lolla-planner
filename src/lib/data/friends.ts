@@ -1,7 +1,6 @@
 import { turso } from '../turso/client';
 import type { Friend } from '../../types';
-
-let cache: Friend[] | null = null;
+import { createCachedReader } from '../turso/createCachedReader';
 
 function rowToFriend(row: Record<string, unknown>): Friend {
   return {
@@ -11,12 +10,13 @@ function rowToFriend(row: Record<string, unknown>): Friend {
   };
 }
 
-export async function getFriends(): Promise<Friend[]> {
-  if (cache) return cache;
-  const result = await turso.execute('SELECT * FROM friends');
-  cache = result.rows.map(rowToFriend);
-  return cache;
-}
+export const getFriends = createCachedReader<Friend>({
+  fetchAll: async () => {
+    const result = await turso.execute('SELECT * FROM friends');
+    return result.rows.map(rowToFriend);
+  },
+  offlineCacheKey: 'friends',
+});
 
 export async function getFriendById(id: string): Promise<Friend | undefined> {
   const friends = await getFriends();

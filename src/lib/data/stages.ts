@@ -1,7 +1,6 @@
 import { turso } from '../turso/client';
 import type { Stage } from '../../types';
-
-let cache: Stage[] | null = null;
+import { createCachedReader } from '../turso/createCachedReader';
 
 function rowToStage(row: Record<string, unknown>): Stage {
   return {
@@ -12,12 +11,13 @@ function rowToStage(row: Record<string, unknown>): Stage {
   };
 }
 
-export async function getStages(): Promise<Stage[]> {
-  if (cache) return cache;
-  const result = await turso.execute('SELECT * FROM stages');
-  cache = result.rows.map(rowToStage);
-  return cache;
-}
+export const getStages = createCachedReader<Stage>({
+  fetchAll: async () => {
+    const result = await turso.execute('SELECT * FROM stages');
+    return result.rows.map(rowToStage);
+  },
+  offlineCacheKey: 'stages',
+});
 
 export async function getStageById(id: string): Promise<Stage | undefined> {
   const stages = await getStages();

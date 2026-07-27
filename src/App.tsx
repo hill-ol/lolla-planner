@@ -1,11 +1,14 @@
+import { useEffect } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import type { Location } from 'react-router-dom';
 import { BottomNav } from './components/BottomNav/BottomNav';
+import { SyncStatus } from './components/SyncStatus/SyncStatus';
 import { Today } from './pages/Today/Today';
 import { Lineup } from './pages/Lineup/Lineup';
 import { MapPage } from './pages/Map/Map';
 import { Trains } from './pages/Trains/Trains';
 import { ArtistDetail } from './pages/ArtistDetail/ArtistDetail';
+import { flushQueue } from './lib/turso/mutationQueue';
 
 interface NavigationState {
   backgroundLocation?: Location;
@@ -14,6 +17,10 @@ interface NavigationState {
 function App() {
   const location = useLocation();
   const backgroundLocation = (location.state as NavigationState | null)?.backgroundLocation;
+
+  useEffect(() => {
+    flushQueue();
+  }, []);
 
   return (
     <>
@@ -33,6 +40,7 @@ function App() {
         </Routes>
       )}
 
+      <SyncStatus />
       <BottomNav />
     </>
   );

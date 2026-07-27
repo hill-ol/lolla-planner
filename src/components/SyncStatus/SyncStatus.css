@@ -1,0 +1,19 @@
+.sync-status {
+  position: fixed;
+  bottom: calc(var(--bottom-nav-height) + var(--safe-bottom) + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 39;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  max-width: calc(var(--app-max-width) - 32px);
+  padding: 7px 14px;
+  background: var(--lolla-black);
+  color: var(--lolla-white);
+  border-radius: var(--radius-pill);
+  font-size: 11.5px;
+  font-weight: 700;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(17, 17, 17, 0.3);
+}

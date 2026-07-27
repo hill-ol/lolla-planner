@@ -1,10 +1,20 @@
+import { loadOfflineCache, saveOfflineCache } from './offlineCache';
+
 type Listener = () => void;
 
 // There's no push-based realtime over plain SQL/HTTP, so cross-device sync is
 // polling-based: each store refetches on an interval, and local mutations are
 // applied to the cache immediately (before the next poll) for instant feedback.
-export function createPolledStore<T>(options: { fetchAll: () => Promise<T[]>; pollMs?: number }) {
-  let cache: T[] = [];
+//
+// When offlineCacheKey is set, the last-known-good snapshot is persisted to
+// localStorage and used as a fallback whenever a fetch fails (offline, DNS
+// hiccup, etc.) instead of leaving the app with nothing to show.
+export function createPolledStore<T>(options: {
+  fetchAll: () => Promise<T[]>;
+  pollMs?: number;
+  offlineCacheKey?: string;
+}) {
+  let cache: T[] = (options.offlineCacheKey && loadOfflineCache<T[]>(options.offlineCacheKey)) || [];
   let loaded = false;
   const listeners = new Set<Listener>();
 
@@ -13,15 +23,22 @@ export function createPolledStore<T>(options: { fetchAll: () => Promise<T[]>; po
   }
 
   async function refresh(): Promise<void> {
-    const next = await options.fetchAll();
-    cache = next;
-    loaded = true;
-    notify();
+    try {
+      cache = await options.fetchAll();
+      if (options.offlineCacheKey) saveOfflineCache(options.offlineCacheKey, cache);
+    } catch (error) {
+      // Keep whatever `cache` already holds — seeded from offline storage,
+      // a previous successful fetch, or an optimistic local mutation.
+      console.warn('[turso] fetch failed, falling back to last known data', error);
+    } finally {
+      loaded = true;
+      notify();
+    }
   }
 
   if (options.pollMs) {
     setInterval(() => {
-      refresh().catch((error) => console.error('[turso] poll refresh failed', error));
+      refresh();
     }, options.pollMs);
   }
 
@@ -35,6 +52,7 @@ export function createPolledStore<T>(options: { fetchAll: () => Promise<T[]>; po
     },
     setCache(next: T[]): void {
       cache = next;
+      if (options.offlineCacheKey) saveOfflineCache(options.offlineCacheKey, next);
       notify();
     },
     refresh,

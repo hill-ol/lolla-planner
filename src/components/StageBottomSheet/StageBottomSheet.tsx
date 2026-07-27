@@ -12,7 +12,7 @@ interface StageBottomSheetProps {
   artists: Artist[];
   now: Date;
   pickByArtistId: Map<string, SchedulePick>;
-  walkFromLastPick?: { minutes: number; label: string };
+  walkFromLastPick?: { min: number; max: number; label: string };
   onClose: () => void;
 }
 
@@ -37,7 +37,9 @@ export function StageBottomSheet({
             <X size={18} strokeWidth={2.5} />
           </button>
           <h2 className="stage-sheet__title">{stage.name}</h2>
-          {walkFromLastPick && <WalkingBadge minutes={walkFromLastPick.minutes} label={walkFromLastPick.label} />}
+          {walkFromLastPick && (
+            <WalkingBadge min={walkFromLastPick.min} max={walkFromLastPick.max} label={walkFromLastPick.label} />
+          )}
 
           {relevant.length === 0 ? (
             <p className="stage-sheet__empty">Nothing left on this stage today.</p>

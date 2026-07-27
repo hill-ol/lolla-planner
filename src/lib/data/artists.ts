@@ -1,7 +1,6 @@
 import { turso } from '../turso/client';
 import type { Artist, FestivalDay } from '../../types';
-
-let cache: Artist[] | null = null;
+import { createCachedReader } from '../turso/createCachedReader';
 
 function rowToArtist(row: Record<string, unknown>): Artist {
   return {
@@ -14,12 +13,13 @@ function rowToArtist(row: Record<string, unknown>): Artist {
   };
 }
 
-export async function getArtists(): Promise<Artist[]> {
-  if (cache) return cache;
-  const result = await turso.execute('SELECT * FROM artists');
-  cache = result.rows.map(rowToArtist);
-  return cache;
-}
+export const getArtists = createCachedReader<Artist>({
+  fetchAll: async () => {
+    const result = await turso.execute('SELECT * FROM artists');
+    return result.rows.map(rowToArtist);
+  },
+  offlineCacheKey: 'artists',
+});
 
 export async function getArtistsByDay(day: FestivalDay): Promise<Artist[]> {
   const artists = await getArtists();

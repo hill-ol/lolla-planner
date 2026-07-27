@@ -2,9 +2,59 @@ import stagesData from '../data/stages.json';
 import type { Stage } from '../types';
 
 const stages = stagesData as Stage[];
+const stageById = new Map(stages.map((stage) => [stage.id, stage]));
 
-// Matches the actual map artwork's pixel dimensions (src/assets/map.webp) —
-// kept in sync with Map.tsx's canvas size.
+export interface WalkingRange {
+  min: number;
+  max: number;
+}
+
+// Real-world walking-time estimates between the 7 main stages, measured on
+// the ground rather than derived from map coordinates. Kidzapalooza isn't
+// covered by these yet, so it falls back to the coordinate-based estimate
+// further down.
+const KNOWN_WALKING_TIMES: Record<string, Record<string, WalkingRange>> = {
+  tmobile: {
+    perrys: { min: 3, max: 5 },
+    allianz: { min: 4, max: 6 },
+    bmi: { min: 6, max: 8 },
+    airbnb: { min: 8, max: 10 },
+    titos: { min: 10, max: 12 },
+    budlight: { min: 15, max: 20 },
+  },
+  perrys: {
+    allianz: { min: 3, max: 5 },
+    bmi: { min: 5, max: 7 },
+    airbnb: { min: 7, max: 9 },
+    titos: { min: 9, max: 11 },
+    budlight: { min: 13, max: 17 },
+  },
+  allianz: {
+    bmi: { min: 2, max: 4 },
+    airbnb: { min: 4, max: 6 },
+    titos: { min: 6, max: 8 },
+    budlight: { min: 11, max: 15 },
+  },
+  bmi: {
+    airbnb: { min: 2, max: 4 },
+    titos: { min: 4, max: 6 },
+    budlight: { min: 8, max: 12 },
+  },
+  airbnb: {
+    titos: { min: 2, max: 4 },
+    budlight: { min: 6, max: 9 },
+  },
+  titos: {
+    budlight: { min: 4, max: 6 },
+  },
+};
+
+function lookupKnown(fromStageId: string, toStageId: string): WalkingRange | undefined {
+  return KNOWN_WALKING_TIMES[fromStageId]?.[toStageId] ?? KNOWN_WALKING_TIMES[toStageId]?.[fromStageId];
+}
+
+// --- Fallback for any pair not covered above (currently just Kidzapalooza,
+// added after the 7-stage measurements above were taken).
 const MAP_WIDTH = 1080;
 const MAP_HEIGHT = 1820;
 
@@ -24,19 +74,26 @@ function distanceMiles(a: Stage, b: Stage): number {
   return Math.sqrt(dxPx ** 2 + dyPx ** 2) * MILES_PER_PIXEL;
 }
 
-function minutesForDistance(miles: number): number {
+function estimateMinutes(a: Stage, b: Stage): number {
+  const miles = distanceMiles(a, b);
   return Math.max(1, Math.round((miles / FESTIVAL_WALK_SPEED_MPH) * 60));
 }
 
-const WALKING_MINUTES: Record<string, Record<string, number>> = {};
+export function getWalkingRange(fromStageId: string, toStageId: string): WalkingRange {
+  if (fromStageId === toStageId) return { min: 0, max: 0 };
 
-for (const from of stages) {
-  WALKING_MINUTES[from.id] = {};
-  for (const to of stages) {
-    WALKING_MINUTES[from.id][to.id] = from.id === to.id ? 0 : minutesForDistance(distanceMiles(from, to));
-  }
+  const known = lookupKnown(fromStageId, toStageId);
+  if (known) return known;
+
+  const from = stageById.get(fromStageId);
+  const to = stageById.get(toStageId);
+  if (!from || !to) return { min: 0, max: 0 };
+
+  const estimate = estimateMinutes(from, to);
+  return { min: estimate, max: estimate };
 }
 
 export function getWalkingMinutes(fromStageId: string, toStageId: string): number {
-  return WALKING_MINUTES[fromStageId]?.[toStageId] ?? 0;
+  const { min, max } = getWalkingRange(fromStageId, toStageId);
+  return Math.round((min + max) / 2);
 }

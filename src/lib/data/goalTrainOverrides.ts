@@ -1,4 +1,5 @@
 import { turso } from '../turso/client';
+import { executeWrite } from '../turso/mutationQueue';
 import type { GoalTrainDirection, GoalTrainOverride } from '../../types';
 import { createPolledStore } from '../turso/createPolledStore';
 
@@ -17,7 +18,11 @@ async function fetchAllOverrides(): Promise<GoalTrainOverride[]> {
   return result.rows.map(rowToOverride);
 }
 
-const store = createPolledStore<GoalTrainOverride>({ fetchAll: fetchAllOverrides, pollMs: 5000 });
+const store = createPolledStore<GoalTrainOverride>({
+  fetchAll: fetchAllOverrides,
+  pollMs: 5000,
+  offlineCacheKey: 'goal-train-overrides',
+});
 
 export const subscribeGoalTrainOverrides = store.subscribe;
 
@@ -34,15 +39,18 @@ export async function getOverrideForDay(
 }
 
 export async function setOverride(input: Omit<GoalTrainOverride, 'id'>): Promise<GoalTrainOverride> {
-  await turso.execute({
-    sql: 'DELETE FROM goal_train_overrides WHERE day = ? AND direction = ?',
-    args: [input.day, input.direction],
-  });
+  await executeWrite('DELETE FROM goal_train_overrides WHERE day = ? AND direction = ?', [
+    input.day,
+    input.direction,
+  ]);
   const override: GoalTrainOverride = { ...input, id: `gto-${crypto.randomUUID()}` };
-  await turso.execute({
-    sql: 'INSERT INTO goal_train_overrides (id, day, direction, tripId, addedBy) VALUES (?, ?, ?, ?, ?)',
-    args: [override.id, override.day, override.direction, override.tripId, override.addedBy],
-  });
+  await executeWrite('INSERT INTO goal_train_overrides (id, day, direction, tripId, addedBy) VALUES (?, ?, ?, ?, ?)', [
+    override.id,
+    override.day,
+    override.direction,
+    override.tripId,
+    override.addedBy,
+  ]);
   const next = store
     .getCache()
     .filter((existing) => !(existing.day === input.day && existing.direction === input.direction));
@@ -51,9 +59,6 @@ export async function setOverride(input: Omit<GoalTrainOverride, 'id'>): Promise
 }
 
 export async function clearOverride(day: string, direction: GoalTrainDirection): Promise<void> {
-  await turso.execute({
-    sql: 'DELETE FROM goal_train_overrides WHERE day = ? AND direction = ?',
-    args: [day, direction],
-  });
+  await executeWrite('DELETE FROM goal_train_overrides WHERE day = ? AND direction = ?', [day, direction]);
   store.setCache(store.getCache().filter((override) => !(override.day === day && override.direction === direction)));
 }

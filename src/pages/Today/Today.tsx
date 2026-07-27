@@ -9,7 +9,7 @@ import { useNow } from '../../lib/hooks/useNow';
 import { getTodayContext, isArtistLive } from '../../lib/today';
 import { dayLabel, formatFestivalDate, timeToMinutes } from '../../lib/format';
 import { FESTIVAL_DATES } from '../../lib/festival-dates';
-import { getWalkingMinutes } from '../../lib/walking-times';
+import { getWalkingRange } from '../../lib/walking-times';
 import './Today.css';
 
 type Filter = 'mine' | 'all';
@@ -100,7 +100,7 @@ export function Today() {
                 <Fragment key={artist.id}>
                   {showWalkingBadge && (
                     <WalkingBadge
-                      minutes={getWalkingMinutes(previousStage!.id, currentStage!.id)}
+                      {...getWalkingRange(previousStage!.id, currentStage!.id)}
                       label={`to ${currentStage!.name}`}
                     />
                   )}
