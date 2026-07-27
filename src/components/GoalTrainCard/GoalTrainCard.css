@@ -1,0 +1,113 @@
+.goal-train-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 14px 16px;
+  background: var(--lolla-lime);
+  border: 2.5px solid var(--lolla-black);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-card);
+}
+
+.goal-train-card--editing {
+  border-color: var(--lolla-teal);
+}
+
+.goal-train-card__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.goal-train-card__heading {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-body);
+  font-weight: 800;
+  font-size: 12.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.goal-train-card__edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: 2px solid var(--lolla-black);
+  border-radius: 50%;
+  background: var(--lolla-white);
+  cursor: pointer;
+}
+
+.goal-train-card__edit:active {
+  transform: scale(0.9);
+}
+
+.goal-train-card__trip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.goal-train-card__time {
+  font-family: var(--font-body);
+  font-weight: 800;
+  font-size: 17px;
+}
+
+.goal-train-card__subtitle {
+  margin: -4px 0 0;
+  font-size: 11.5px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.goal-train-card__empty {
+  margin: 0;
+  font-size: 12.5px;
+  font-weight: 600;
+  opacity: 0.65;
+}
+
+.goal-train-card__suggested-tag {
+  font-size: 10.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.55;
+}
+
+.goal-train-card__override-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.goal-train-card__manual-tag {
+  padding: 3px 9px;
+  background: var(--lolla-black);
+  color: var(--lolla-white);
+  border-radius: var(--radius-pill);
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.goal-train-card__reset {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: none;
+  background: transparent;
+  padding: 0;
+  font-size: 10.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--lolla-black);
+  text-decoration: underline;
+  cursor: pointer;
+}

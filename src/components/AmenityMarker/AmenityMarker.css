@@ -1,0 +1,31 @@
+.amenity-marker {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  background: var(--lolla-white);
+  border: 1.5px solid var(--lolla-black);
+  border-radius: 50%;
+  color: var(--lolla-black);
+  pointer-events: none;
+  animation: amenity-marker-in 200ms var(--ease-snap) both;
+}
+
+@keyframes amenity-marker-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .amenity-marker {
+    animation-duration: 60ms;
+  }
+}
