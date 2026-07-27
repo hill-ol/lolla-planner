@@ -1,0 +1,54 @@
+.stage-marker {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  transform: translate(-50%, -50%);
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.stage-marker__dot,
+.stage-marker svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--lolla-teal);
+  border: 2.5px solid var(--lolla-black);
+  box-shadow: var(--shadow-card);
+  transition: transform var(--duration-fast) var(--ease-spring);
+}
+
+.stage-marker--active .stage-marker__dot,
+.stage-marker--active svg {
+  background: var(--lolla-coral);
+}
+
+.stage-marker:active svg,
+.stage-marker:active .stage-marker__dot {
+  transform: scale(0.88);
+}
+
+.stage-marker--selected svg,
+.stage-marker--selected .stage-marker__dot {
+  transform: scale(1.15);
+}
+
+.stage-marker__label {
+  padding: 2px 7px;
+  background: var(--lolla-black);
+  color: var(--lolla-white);
+  border-radius: var(--radius-pill);
+  font-size: 9.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
