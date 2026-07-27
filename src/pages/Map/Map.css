@@ -36,13 +36,12 @@
 
 .map-page__wrapper {
   flex: 1 1 auto;
-  width: 100%;
-  height: 100%;
-}
-
-.map-page__content {
-  width: 100%;
-  height: 100%;
+  /* react-zoom-pan-pinch's own stylesheet sets width/height: fit-content on
+     this element, which can load after ours and win the cascade — this
+     wrapper is the viewport and must always fill its container regardless. */
+  width: 100% !important;
+  height: 100% !important;
+  touch-action: none;
 }
 
 .map-page__canvas {

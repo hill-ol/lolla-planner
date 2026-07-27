@@ -6,7 +6,7 @@ const stages = stagesData as Stage[];
 // Matches the actual map artwork's pixel dimensions (src/assets/map.webp) —
 // kept in sync with Map.tsx's canvas size.
 const MAP_WIDTH = 1080;
-const MAP_HEIGHT = 2315;
+const MAP_HEIGHT = 1820;
 
 // Michigan Ave to Lake Shore Dr spans roughly 70% of the map's width — the
 // grounds don't run edge to edge (there's a black margin/logo strip on the

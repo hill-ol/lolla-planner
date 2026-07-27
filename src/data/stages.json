@@ -1,10 +1,10 @@
 [
-  { "id": "tmobile", "name": "T-Mobile", "mapX": 70, "mapY": 75 },
-  { "id": "perrys", "name": "Perry's", "mapX": 43, "mapY": 63 },
-  { "id": "allianz", "name": "Allianz", "mapX": 85, "mapY": 53 },
-  { "id": "kidzapalooza", "name": "Kidzapalooza", "mapX": 87, "mapY": 41 },
-  { "id": "bmi", "name": "BMI", "mapX": 87, "mapY": 24 },
-  { "id": "airbnb", "name": "Airbnb", "mapX": 37, "mapY": 20 },
-  { "id": "titos", "name": "Tito's", "mapX": 61, "mapY": 16 },
-  { "id": "budlight", "name": "Bud Light", "mapX": 70, "mapY": 3 }
+  { "id": "tmobile", "name": "T-Mobile", "mapX": 70, "mapY": 95.4 },
+  { "id": "perrys", "name": "Perry's", "mapX": 43, "mapY": 80.1 },
+  { "id": "allianz", "name": "Allianz", "mapX": 85, "mapY": 67.4 },
+  { "id": "kidzapalooza", "name": "Kidzapalooza", "mapX": 87, "mapY": 52.2 },
+  { "id": "bmi", "name": "BMI", "mapX": 87, "mapY": 30.5 },
+  { "id": "airbnb", "name": "Airbnb", "mapX": 37, "mapY": 25.4 },
+  { "id": "titos", "name": "Tito's", "mapX": 61, "mapY": 20.4 },
+  { "id": "budlight", "name": "Bud Light", "mapX": 70, "mapY": 3.8 }
 ]

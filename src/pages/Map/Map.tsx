@@ -17,7 +17,7 @@ import mapImage from '../../assets/map.webp';
 import './Map.css';
 
 const MAP_WIDTH = 1080;
-const MAP_HEIGHT = 2315;
+const MAP_HEIGHT = 1820;
 
 export function MapPage() {
   const stages = useStages();
@@ -60,7 +60,7 @@ export function MapPage() {
         </button>
       </div>
 
-      <TransformWrapper minScale={0.6} initialScale={0.75} maxScale={3} centerOnInit>
+      <TransformWrapper minScale={0.3} initialScale={0.36} maxScale={3} centerOnInit centerZoomedOut>
         <TransformComponent wrapperClass="map-page__wrapper" contentClass="map-page__content">
           <div className="map-page__canvas" style={{ width: MAP_WIDTH, height: MAP_HEIGHT }}>
             <img className="map-page__image" src={mapImage} alt="Lollapalooza 2026 festival map" draggable={false} />
