@@ -1,0 +1,1238 @@
+{
+  "thursday": {
+    "outbound": [
+      {
+        "tripId": "BNSF_BN1200_V4_C",
+        "direction": "outbound",
+        "departureTime": "04:48",
+        "arrivalTime": "05:12"
+      },
+      {
+        "tripId": "BNSF_BN1202_V2_C",
+        "direction": "outbound",
+        "departureTime": "05:15",
+        "arrivalTime": "05:52"
+      },
+      {
+        "tripId": "BNSF_BN1204_V2_C",
+        "direction": "outbound",
+        "departureTime": "05:38",
+        "arrivalTime": "06:15"
+      },
+      {
+        "tripId": "BNSF_BN1208_V2_C",
+        "direction": "outbound",
+        "departureTime": "06:02",
+        "arrivalTime": "06:26"
+      },
+      {
+        "tripId": "BNSF_BN1212_V2_C",
+        "direction": "outbound",
+        "departureTime": "06:15",
+        "arrivalTime": "06:52"
+      },
+      {
+        "tripId": "BNSF_BN1214_V2_C",
+        "direction": "outbound",
+        "departureTime": "06:32",
+        "arrivalTime": "06:56"
+      },
+      {
+        "tripId": "BNSF_BN1220_V2_C",
+        "direction": "outbound",
+        "departureTime": "07:02",
+        "arrivalTime": "07:26"
+      },
+      {
+        "tripId": "BNSF_BN1224_V2_C",
+        "direction": "outbound",
+        "departureTime": "07:15",
+        "arrivalTime": "07:52"
+      },
+      {
+        "tripId": "BNSF_BN1226_V2_C",
+        "direction": "outbound",
+        "departureTime": "07:32",
+        "arrivalTime": "07:56"
+      },
+      {
+        "tripId": "BNSF_BN1234_V2_C",
+        "direction": "outbound",
+        "departureTime": "08:02",
+        "arrivalTime": "08:26"
+      },
+      {
+        "tripId": "BNSF_BN1242_V2_C",
+        "direction": "outbound",
+        "departureTime": "08:15",
+        "arrivalTime": "08:52"
+      },
+      {
+        "tripId": "BNSF_BN1244_V2_C",
+        "direction": "outbound",
+        "departureTime": "08:32",
+        "arrivalTime": "08:56"
+      },
+      {
+        "tripId": "BNSF_BN1304_V3_C",
+        "direction": "outbound",
+        "departureTime": "09:03",
+        "arrivalTime": "09:40"
+      },
+      {
+        "tripId": "BNSF_BN1252_V2_C",
+        "direction": "outbound",
+        "departureTime": "09:45",
+        "arrivalTime": "10:20"
+      },
+      {
+        "tripId": "BNSF_BN1254_V2_C",
+        "direction": "outbound",
+        "departureTime": "10:45",
+        "arrivalTime": "11:20"
+      },
+      {
+        "tripId": "BNSF_BN1256_V2_C",
+        "direction": "outbound",
+        "departureTime": "11:45",
+        "arrivalTime": "12:20"
+      },
+      {
+        "tripId": "BNSF_BN1258_V2_C",
+        "direction": "outbound",
+        "departureTime": "12:45",
+        "arrivalTime": "13:20"
+      },
+      {
+        "tripId": "BNSF_BN1260_V2_C",
+        "direction": "outbound",
+        "departureTime": "13:45",
+        "arrivalTime": "14:20"
+      },
+      {
+        "tripId": "BNSF_BN1262_V2_C",
+        "direction": "outbound",
+        "departureTime": "14:45",
+        "arrivalTime": "15:20"
+      },
+      {
+        "tripId": "BNSF_BN1264_V2_C",
+        "direction": "outbound",
+        "departureTime": "15:45",
+        "arrivalTime": "16:20"
+      },
+      {
+        "tripId": "BNSF_BN1268_V3_C",
+        "direction": "outbound",
+        "departureTime": "16:17",
+        "arrivalTime": "16:45"
+      },
+      {
+        "tripId": "BNSF_BN1312_V3_C",
+        "direction": "outbound",
+        "departureTime": "16:28",
+        "arrivalTime": "17:05"
+      },
+      {
+        "tripId": "BNSF_BN1272_V2_C",
+        "direction": "outbound",
+        "departureTime": "16:47",
+        "arrivalTime": "17:15"
+      },
+      {
+        "tripId": "BNSF_BN1274_V2_C",
+        "direction": "outbound",
+        "departureTime": "16:58",
+        "arrivalTime": "17:35"
+      },
+      {
+        "tripId": "BNSF_BN1276_V2_C",
+        "direction": "outbound",
+        "departureTime": "17:17",
+        "arrivalTime": "17:45"
+      },
+      {
+        "tripId": "BNSF_BN1282_V2_C",
+        "direction": "outbound",
+        "departureTime": "17:28",
+        "arrivalTime": "18:05"
+      },
+      {
+        "tripId": "BNSF_BN1284_V2_C",
+        "direction": "outbound",
+        "departureTime": "17:45",
+        "arrivalTime": "18:20"
+      },
+      {
+        "tripId": "BNSF_BN1292_V2_C",
+        "direction": "outbound",
+        "departureTime": "18:45",
+        "arrivalTime": "19:20"
+      },
+      {
+        "tripId": "BNSF_BN1294_V2_C",
+        "direction": "outbound",
+        "departureTime": "19:45",
+        "arrivalTime": "20:20"
+      },
+      {
+        "tripId": "BNSF_BN1296_V2_C",
+        "direction": "outbound",
+        "departureTime": "20:45",
+        "arrivalTime": "21:20"
+      },
+      {
+        "tripId": "BNSF_BN1298_V2_C",
+        "direction": "outbound",
+        "departureTime": "21:45",
+        "arrivalTime": "22:20"
+      },
+      {
+        "tripId": "BNSF_BN1300_V3_C",
+        "direction": "outbound",
+        "departureTime": "22:45",
+        "arrivalTime": "23:20"
+      },
+      {
+        "tripId": "BNSF_BN1302_V3_C",
+        "direction": "outbound",
+        "departureTime": "23:45",
+        "arrivalTime": "00:20"
+      }
+    ],
+    "return": [
+      {
+        "tripId": "BNSF_BN1201_V2_C",
+        "direction": "return",
+        "departureTime": "05:33",
+        "arrivalTime": "06:04"
+      },
+      {
+        "tripId": "BNSF_BN1205_V2_C",
+        "direction": "return",
+        "departureTime": "06:16",
+        "arrivalTime": "06:38"
+      },
+      {
+        "tripId": "BNSF_BN1207_V2_C",
+        "direction": "return",
+        "departureTime": "06:25",
+        "arrivalTime": "06:58"
+      },
+      {
+        "tripId": "BNSF_BN1211_V2_C",
+        "direction": "return",
+        "departureTime": "06:46",
+        "arrivalTime": "07:08"
+      },
+      {
+        "tripId": "BNSF_BN1215_V2_C",
+        "direction": "return",
+        "departureTime": "07:15",
+        "arrivalTime": "07:42"
+      },
+      {
+        "tripId": "BNSF_BN1217_V2_C",
+        "direction": "return",
+        "departureTime": "07:33",
+        "arrivalTime": "08:04"
+      },
+      {
+        "tripId": "BNSF_BN1221_V2_C",
+        "direction": "return",
+        "departureTime": "08:33",
+        "arrivalTime": "09:04"
+      },
+      {
+        "tripId": "BNSF_BN1223_V3_C",
+        "direction": "return",
+        "departureTime": "09:33",
+        "arrivalTime": "10:04"
+      },
+      {
+        "tripId": "BNSF_BN1225_V3_C",
+        "direction": "return",
+        "departureTime": "10:33",
+        "arrivalTime": "11:04"
+      },
+      {
+        "tripId": "BNSF_BN1227_V3_C",
+        "direction": "return",
+        "departureTime": "11:33",
+        "arrivalTime": "12:04"
+      },
+      {
+        "tripId": "BNSF_BN1229_V3_C",
+        "direction": "return",
+        "departureTime": "12:33",
+        "arrivalTime": "13:04"
+      },
+      {
+        "tripId": "BNSF_BN1231_V2_C",
+        "direction": "return",
+        "departureTime": "13:33",
+        "arrivalTime": "14:04"
+      },
+      {
+        "tripId": "BNSF_BN1233_V2_C",
+        "direction": "return",
+        "departureTime": "14:33",
+        "arrivalTime": "15:04"
+      },
+      {
+        "tripId": "BNSF_BN1237_V3_C",
+        "direction": "return",
+        "departureTime": "15:05",
+        "arrivalTime": "15:25"
+      },
+      {
+        "tripId": "BNSF_BN1239_V2_C",
+        "direction": "return",
+        "departureTime": "15:10",
+        "arrivalTime": "15:43"
+      },
+      {
+        "tripId": "BNSF_BN1243_V2_C",
+        "direction": "return",
+        "departureTime": "15:35",
+        "arrivalTime": "15:55"
+      },
+      {
+        "tripId": "BNSF_BN1249_V2_C",
+        "direction": "return",
+        "departureTime": "16:05",
+        "arrivalTime": "16:25"
+      },
+      {
+        "tripId": "BNSF_BN1251_V2_C",
+        "direction": "return",
+        "departureTime": "16:10",
+        "arrivalTime": "16:43"
+      },
+      {
+        "tripId": "BNSF_BN1255_V2_C",
+        "direction": "return",
+        "departureTime": "16:35",
+        "arrivalTime": "16:55"
+      },
+      {
+        "tripId": "BNSF_BN1263_V2_C",
+        "direction": "return",
+        "departureTime": "17:05",
+        "arrivalTime": "17:25"
+      },
+      {
+        "tripId": "BNSF_BN1265_V2_C",
+        "direction": "return",
+        "departureTime": "17:10",
+        "arrivalTime": "17:43"
+      },
+      {
+        "tripId": "BNSF_BN1271_V2_C",
+        "direction": "return",
+        "departureTime": "17:35",
+        "arrivalTime": "17:55"
+      },
+      {
+        "tripId": "BNSF_BN1277_V2_C",
+        "direction": "return",
+        "departureTime": "18:05",
+        "arrivalTime": "18:25"
+      },
+      {
+        "tripId": "BNSF_BN1279_V2_C",
+        "direction": "return",
+        "departureTime": "18:10",
+        "arrivalTime": "18:43"
+      },
+      {
+        "tripId": "BNSF_BN1307_V1_C",
+        "direction": "return",
+        "departureTime": "18:35",
+        "arrivalTime": "18:55"
+      },
+      {
+        "tripId": "BNSF_BN1283_V2_C",
+        "direction": "return",
+        "departureTime": "18:50",
+        "arrivalTime": "19:23"
+      },
+      {
+        "tripId": "BNSF_BN1285_V3_C",
+        "direction": "return",
+        "departureTime": "19:33",
+        "arrivalTime": "20:04"
+      },
+      {
+        "tripId": "BNSF_BN1287_V2_C",
+        "direction": "return",
+        "departureTime": "20:33",
+        "arrivalTime": "21:04"
+      },
+      {
+        "tripId": "BNSF_BN1289_V2_C",
+        "direction": "return",
+        "departureTime": "21:33",
+        "arrivalTime": "22:04"
+      },
+      {
+        "tripId": "BNSF_BN1291_V2_C",
+        "direction": "return",
+        "departureTime": "22:33",
+        "arrivalTime": "23:04"
+      },
+      {
+        "tripId": "BNSF_BN1293_V2_C",
+        "direction": "return",
+        "departureTime": "23:33",
+        "arrivalTime": "00:04"
+      },
+      {
+        "tripId": "BNSF_BN1295_V2_C",
+        "direction": "return",
+        "departureTime": "00:33",
+        "arrivalTime": "01:04"
+      }
+    ]
+  },
+  "friday": {
+    "outbound": [
+      {
+        "tripId": "BNSF_BN1200_V4_D",
+        "direction": "outbound",
+        "departureTime": "04:48",
+        "arrivalTime": "05:12"
+      },
+      {
+        "tripId": "BNSF_BN1202_V2_D",
+        "direction": "outbound",
+        "departureTime": "05:15",
+        "arrivalTime": "05:52"
+      },
+      {
+        "tripId": "BNSF_BN1204_V2_D",
+        "direction": "outbound",
+        "departureTime": "05:38",
+        "arrivalTime": "06:15"
+      },
+      {
+        "tripId": "BNSF_BN1208_V2_D",
+        "direction": "outbound",
+        "departureTime": "06:02",
+        "arrivalTime": "06:26"
+      },
+      {
+        "tripId": "BNSF_BN1212_V2_D",
+        "direction": "outbound",
+        "departureTime": "06:15",
+        "arrivalTime": "06:52"
+      },
+      {
+        "tripId": "BNSF_BN1214_V2_D",
+        "direction": "outbound",
+        "departureTime": "06:32",
+        "arrivalTime": "06:56"
+      },
+      {
+        "tripId": "BNSF_BN1220_V2_D",
+        "direction": "outbound",
+        "departureTime": "07:02",
+        "arrivalTime": "07:26"
+      },
+      {
+        "tripId": "BNSF_BN1224_V2_D",
+        "direction": "outbound",
+        "departureTime": "07:15",
+        "arrivalTime": "07:52"
+      },
+      {
+        "tripId": "BNSF_BN1226_V2_D",
+        "direction": "outbound",
+        "departureTime": "07:32",
+        "arrivalTime": "07:56"
+      },
+      {
+        "tripId": "BNSF_BN1234_V2_D",
+        "direction": "outbound",
+        "departureTime": "08:02",
+        "arrivalTime": "08:26"
+      },
+      {
+        "tripId": "BNSF_BN1242_V2_D",
+        "direction": "outbound",
+        "departureTime": "08:15",
+        "arrivalTime": "08:52"
+      },
+      {
+        "tripId": "BNSF_BN1244_V2_D",
+        "direction": "outbound",
+        "departureTime": "08:32",
+        "arrivalTime": "08:56"
+      },
+      {
+        "tripId": "BNSF_BN1304_V3_D",
+        "direction": "outbound",
+        "departureTime": "09:03",
+        "arrivalTime": "09:40"
+      },
+      {
+        "tripId": "BNSF_BN1252_V2_D",
+        "direction": "outbound",
+        "departureTime": "09:45",
+        "arrivalTime": "10:20"
+      },
+      {
+        "tripId": "BNSF_BN1254_V2_D",
+        "direction": "outbound",
+        "departureTime": "10:45",
+        "arrivalTime": "11:20"
+      },
+      {
+        "tripId": "BNSF_BN1256_V2_D",
+        "direction": "outbound",
+        "departureTime": "11:45",
+        "arrivalTime": "12:20"
+      },
+      {
+        "tripId": "BNSF_BN1258_V2_D",
+        "direction": "outbound",
+        "departureTime": "12:45",
+        "arrivalTime": "13:20"
+      },
+      {
+        "tripId": "BNSF_BN1260_V2_D",
+        "direction": "outbound",
+        "departureTime": "13:45",
+        "arrivalTime": "14:20"
+      },
+      {
+        "tripId": "BNSF_BN1262_V2_D",
+        "direction": "outbound",
+        "departureTime": "14:45",
+        "arrivalTime": "15:20"
+      },
+      {
+        "tripId": "BNSF_BN1264_V2_D",
+        "direction": "outbound",
+        "departureTime": "15:45",
+        "arrivalTime": "16:20"
+      },
+      {
+        "tripId": "BNSF_BN1268_V3_D",
+        "direction": "outbound",
+        "departureTime": "16:17",
+        "arrivalTime": "16:45"
+      },
+      {
+        "tripId": "BNSF_BN1312_V3_D",
+        "direction": "outbound",
+        "departureTime": "16:28",
+        "arrivalTime": "17:05"
+      },
+      {
+        "tripId": "BNSF_BN1272_V2_D",
+        "direction": "outbound",
+        "departureTime": "16:47",
+        "arrivalTime": "17:15"
+      },
+      {
+        "tripId": "BNSF_BN1274_V2_D",
+        "direction": "outbound",
+        "departureTime": "16:58",
+        "arrivalTime": "17:35"
+      },
+      {
+        "tripId": "BNSF_BN1276_V2_D",
+        "direction": "outbound",
+        "departureTime": "17:17",
+        "arrivalTime": "17:45"
+      },
+      {
+        "tripId": "BNSF_BN1282_V2_D",
+        "direction": "outbound",
+        "departureTime": "17:28",
+        "arrivalTime": "18:05"
+      },
+      {
+        "tripId": "BNSF_BN1284_V2_D",
+        "direction": "outbound",
+        "departureTime": "17:45",
+        "arrivalTime": "18:20"
+      },
+      {
+        "tripId": "BNSF_BN1292_V2_D",
+        "direction": "outbound",
+        "departureTime": "18:45",
+        "arrivalTime": "19:20"
+      },
+      {
+        "tripId": "BNSF_BN1294_V2_D",
+        "direction": "outbound",
+        "departureTime": "19:45",
+        "arrivalTime": "20:20"
+      },
+      {
+        "tripId": "BNSF_BN1296_V2_D",
+        "direction": "outbound",
+        "departureTime": "20:45",
+        "arrivalTime": "21:20"
+      },
+      {
+        "tripId": "BNSF_BN1298_V2_D",
+        "direction": "outbound",
+        "departureTime": "21:45",
+        "arrivalTime": "22:20"
+      },
+      {
+        "tripId": "BNSF_BN1300_V3_D",
+        "direction": "outbound",
+        "departureTime": "22:45",
+        "arrivalTime": "23:20"
+      },
+      {
+        "tripId": "BNSF_BN1302_V3_D",
+        "direction": "outbound",
+        "departureTime": "23:45",
+        "arrivalTime": "00:20"
+      }
+    ],
+    "return": [
+      {
+        "tripId": "BNSF_BN1201_V2_D",
+        "direction": "return",
+        "departureTime": "05:33",
+        "arrivalTime": "06:04"
+      },
+      {
+        "tripId": "BNSF_BN1205_V2_D",
+        "direction": "return",
+        "departureTime": "06:16",
+        "arrivalTime": "06:38"
+      },
+      {
+        "tripId": "BNSF_BN1207_V2_D",
+        "direction": "return",
+        "departureTime": "06:25",
+        "arrivalTime": "06:58"
+      },
+      {
+        "tripId": "BNSF_BN1211_V2_D",
+        "direction": "return",
+        "departureTime": "06:46",
+        "arrivalTime": "07:08"
+      },
+      {
+        "tripId": "BNSF_BN1215_V2_D",
+        "direction": "return",
+        "departureTime": "07:15",
+        "arrivalTime": "07:42"
+      },
+      {
+        "tripId": "BNSF_BN1217_V2_D",
+        "direction": "return",
+        "departureTime": "07:33",
+        "arrivalTime": "08:04"
+      },
+      {
+        "tripId": "BNSF_BN1221_V2_D",
+        "direction": "return",
+        "departureTime": "08:33",
+        "arrivalTime": "09:04"
+      },
+      {
+        "tripId": "BNSF_BN1223_V3_D",
+        "direction": "return",
+        "departureTime": "09:33",
+        "arrivalTime": "10:04"
+      },
+      {
+        "tripId": "BNSF_BN1225_V3_D",
+        "direction": "return",
+        "departureTime": "10:33",
+        "arrivalTime": "11:04"
+      },
+      {
+        "tripId": "BNSF_BN1227_V3_D",
+        "direction": "return",
+        "departureTime": "11:33",
+        "arrivalTime": "12:04"
+      },
+      {
+        "tripId": "BNSF_BN1229_V3_D",
+        "direction": "return",
+        "departureTime": "12:33",
+        "arrivalTime": "13:04"
+      },
+      {
+        "tripId": "BNSF_BN1231_V2_D",
+        "direction": "return",
+        "departureTime": "13:33",
+        "arrivalTime": "14:04"
+      },
+      {
+        "tripId": "BNSF_BN1233_V2_D",
+        "direction": "return",
+        "departureTime": "14:33",
+        "arrivalTime": "15:04"
+      },
+      {
+        "tripId": "BNSF_BN1237_V3_D",
+        "direction": "return",
+        "departureTime": "15:05",
+        "arrivalTime": "15:25"
+      },
+      {
+        "tripId": "BNSF_BN1239_V2_D",
+        "direction": "return",
+        "departureTime": "15:10",
+        "arrivalTime": "15:43"
+      },
+      {
+        "tripId": "BNSF_BN1243_V2_D",
+        "direction": "return",
+        "departureTime": "15:35",
+        "arrivalTime": "15:55"
+      },
+      {
+        "tripId": "BNSF_BN1249_V2_D",
+        "direction": "return",
+        "departureTime": "16:05",
+        "arrivalTime": "16:25"
+      },
+      {
+        "tripId": "BNSF_BN1251_V2_D",
+        "direction": "return",
+        "departureTime": "16:10",
+        "arrivalTime": "16:43"
+      },
+      {
+        "tripId": "BNSF_BN1255_V2_D",
+        "direction": "return",
+        "departureTime": "16:35",
+        "arrivalTime": "16:55"
+      },
+      {
+        "tripId": "BNSF_BN1263_V2_D",
+        "direction": "return",
+        "departureTime": "17:05",
+        "arrivalTime": "17:25"
+      },
+      {
+        "tripId": "BNSF_BN1265_V2_D",
+        "direction": "return",
+        "departureTime": "17:10",
+        "arrivalTime": "17:43"
+      },
+      {
+        "tripId": "BNSF_BN1271_V2_D",
+        "direction": "return",
+        "departureTime": "17:35",
+        "arrivalTime": "17:55"
+      },
+      {
+        "tripId": "BNSF_BN1277_V2_D",
+        "direction": "return",
+        "departureTime": "18:05",
+        "arrivalTime": "18:25"
+      },
+      {
+        "tripId": "BNSF_BN1279_V2_D",
+        "direction": "return",
+        "departureTime": "18:10",
+        "arrivalTime": "18:43"
+      },
+      {
+        "tripId": "BNSF_BN1307_V1_D",
+        "direction": "return",
+        "departureTime": "18:35",
+        "arrivalTime": "18:55"
+      },
+      {
+        "tripId": "BNSF_BN1283_V2_D",
+        "direction": "return",
+        "departureTime": "18:50",
+        "arrivalTime": "19:23"
+      },
+      {
+        "tripId": "BNSF_BN1285_V3_D",
+        "direction": "return",
+        "departureTime": "19:33",
+        "arrivalTime": "20:04"
+      },
+      {
+        "tripId": "BNSF_BN1287_V2_D",
+        "direction": "return",
+        "departureTime": "20:33",
+        "arrivalTime": "21:04"
+      },
+      {
+        "tripId": "BNSF_BN1289_V2_D",
+        "direction": "return",
+        "departureTime": "21:33",
+        "arrivalTime": "22:04"
+      },
+      {
+        "tripId": "BNSF_BN1291_V2_D",
+        "direction": "return",
+        "departureTime": "22:33",
+        "arrivalTime": "23:04"
+      },
+      {
+        "tripId": "BNSF_BN1293_V2_D",
+        "direction": "return",
+        "departureTime": "23:33",
+        "arrivalTime": "00:04"
+      },
+      {
+        "tripId": "BNSF_BN1295_V2_D",
+        "direction": "return",
+        "departureTime": "00:33",
+        "arrivalTime": "01:04"
+      }
+    ]
+  },
+  "saturday": {
+    "outbound": [
+      {
+        "tripId": "BNSF_BN2000_V1_E",
+        "direction": "outbound",
+        "departureTime": "05:45",
+        "arrivalTime": "06:20"
+      },
+      {
+        "tripId": "BNSF_BN2002_V2_E",
+        "direction": "outbound",
+        "departureTime": "06:45",
+        "arrivalTime": "07:20"
+      },
+      {
+        "tripId": "BNSF_BN2004_V2_E",
+        "direction": "outbound",
+        "departureTime": "07:45",
+        "arrivalTime": "08:20"
+      },
+      {
+        "tripId": "BNSF_BN2006_V2_E",
+        "direction": "outbound",
+        "departureTime": "08:45",
+        "arrivalTime": "09:20"
+      },
+      {
+        "tripId": "BNSF_BN2010_V2_E",
+        "direction": "outbound",
+        "departureTime": "09:45",
+        "arrivalTime": "10:20"
+      },
+      {
+        "tripId": "BNSF_BN2012_V2_E",
+        "direction": "outbound",
+        "departureTime": "10:45",
+        "arrivalTime": "11:20"
+      },
+      {
+        "tripId": "BNSF_BN2014_V2_E",
+        "direction": "outbound",
+        "departureTime": "11:45",
+        "arrivalTime": "12:20"
+      },
+      {
+        "tripId": "BNSF_BN2016_V1_E",
+        "direction": "outbound",
+        "departureTime": "12:45",
+        "arrivalTime": "13:20"
+      },
+      {
+        "tripId": "BNSF_BN2018_V1_E",
+        "direction": "outbound",
+        "departureTime": "13:45",
+        "arrivalTime": "14:20"
+      },
+      {
+        "tripId": "BNSF_BN2020_V1_E",
+        "direction": "outbound",
+        "departureTime": "14:45",
+        "arrivalTime": "15:20"
+      },
+      {
+        "tripId": "BNSF_BN2024_V1_E",
+        "direction": "outbound",
+        "departureTime": "15:45",
+        "arrivalTime": "16:20"
+      },
+      {
+        "tripId": "BNSF_BN2026_V1_E",
+        "direction": "outbound",
+        "departureTime": "16:45",
+        "arrivalTime": "17:20"
+      },
+      {
+        "tripId": "BNSF_BN2028_V1_E",
+        "direction": "outbound",
+        "departureTime": "17:45",
+        "arrivalTime": "18:20"
+      },
+      {
+        "tripId": "BNSF_BN2030_V1_E",
+        "direction": "outbound",
+        "departureTime": "18:45",
+        "arrivalTime": "19:20"
+      },
+      {
+        "tripId": "BNSF_BN2032_V1_E",
+        "direction": "outbound",
+        "departureTime": "19:45",
+        "arrivalTime": "20:20"
+      },
+      {
+        "tripId": "BNSF_BN2034_V1_E",
+        "direction": "outbound",
+        "departureTime": "20:45",
+        "arrivalTime": "21:20"
+      },
+      {
+        "tripId": "BNSF_BN2036_V1_E",
+        "direction": "outbound",
+        "departureTime": "21:45",
+        "arrivalTime": "22:20"
+      },
+      {
+        "tripId": "BNSF_BN2040_V1_E",
+        "direction": "outbound",
+        "departureTime": "23:45",
+        "arrivalTime": "00:20"
+      }
+    ],
+    "return": [
+      {
+        "tripId": "BNSF_BN2001_V2_E",
+        "direction": "return",
+        "departureTime": "06:33",
+        "arrivalTime": "07:04"
+      },
+      {
+        "tripId": "BNSF_BN2005_V3_E",
+        "direction": "return",
+        "departureTime": "08:33",
+        "arrivalTime": "09:04"
+      },
+      {
+        "tripId": "BNSF_BN2007_V1_E",
+        "direction": "return",
+        "departureTime": "09:33",
+        "arrivalTime": "10:04"
+      },
+      {
+        "tripId": "BNSF_BN2009_V1_E",
+        "direction": "return",
+        "departureTime": "10:33",
+        "arrivalTime": "11:04"
+      },
+      {
+        "tripId": "BNSF_BN2011_V1_E",
+        "direction": "return",
+        "departureTime": "11:33",
+        "arrivalTime": "12:04"
+      },
+      {
+        "tripId": "BNSF_BN2013_V1_E",
+        "direction": "return",
+        "departureTime": "12:33",
+        "arrivalTime": "13:04"
+      },
+      {
+        "tripId": "BNSF_BN2015_V1_E",
+        "direction": "return",
+        "departureTime": "13:33",
+        "arrivalTime": "14:04"
+      },
+      {
+        "tripId": "BNSF_BN2017_V1_E",
+        "direction": "return",
+        "departureTime": "14:33",
+        "arrivalTime": "15:04"
+      },
+      {
+        "tripId": "BNSF_BN2019_V1_E",
+        "direction": "return",
+        "departureTime": "15:33",
+        "arrivalTime": "16:04"
+      },
+      {
+        "tripId": "BNSF_BN2021_V1_E",
+        "direction": "return",
+        "departureTime": "16:33",
+        "arrivalTime": "17:04"
+      },
+      {
+        "tripId": "BNSF_BN2025_V1_E",
+        "direction": "return",
+        "departureTime": "17:33",
+        "arrivalTime": "18:04"
+      },
+      {
+        "tripId": "BNSF_BN2027_V1_E",
+        "direction": "return",
+        "departureTime": "18:33",
+        "arrivalTime": "19:04"
+      },
+      {
+        "tripId": "BNSF_BN2029_V1_E",
+        "direction": "return",
+        "departureTime": "19:33",
+        "arrivalTime": "20:04"
+      },
+      {
+        "tripId": "BNSF_BN2031_V1_E",
+        "direction": "return",
+        "departureTime": "20:33",
+        "arrivalTime": "21:04"
+      },
+      {
+        "tripId": "BNSF_BN2033_V1_E",
+        "direction": "return",
+        "departureTime": "21:33",
+        "arrivalTime": "22:04"
+      },
+      {
+        "tripId": "BNSF_BN2035_V1_E",
+        "direction": "return",
+        "departureTime": "22:33",
+        "arrivalTime": "23:04"
+      },
+      {
+        "tripId": "BNSF_BN2037_V1_E",
+        "direction": "return",
+        "departureTime": "23:33",
+        "arrivalTime": "00:04"
+      },
+      {
+        "tripId": "BNSF_BN2039_V1_E",
+        "direction": "return",
+        "departureTime": "00:33",
+        "arrivalTime": "01:04"
+      }
+    ]
+  },
+  "sunday": {
+    "outbound": [
+      {
+        "tripId": "BNSF_BN2000_V1_F",
+        "direction": "outbound",
+        "departureTime": "05:45",
+        "arrivalTime": "06:20"
+      },
+      {
+        "tripId": "BNSF_BN2002_V2_F",
+        "direction": "outbound",
+        "departureTime": "06:45",
+        "arrivalTime": "07:20"
+      },
+      {
+        "tripId": "BNSF_BN2004_V2_F",
+        "direction": "outbound",
+        "departureTime": "07:45",
+        "arrivalTime": "08:20"
+      },
+      {
+        "tripId": "BNSF_BN2006_V2_F",
+        "direction": "outbound",
+        "departureTime": "08:45",
+        "arrivalTime": "09:20"
+      },
+      {
+        "tripId": "BNSF_BN2010_V2_F",
+        "direction": "outbound",
+        "departureTime": "09:45",
+        "arrivalTime": "10:20"
+      },
+      {
+        "tripId": "BNSF_BN2012_V2_F",
+        "direction": "outbound",
+        "departureTime": "10:45",
+        "arrivalTime": "11:20"
+      },
+      {
+        "tripId": "BNSF_BN2014_V2_F",
+        "direction": "outbound",
+        "departureTime": "11:45",
+        "arrivalTime": "12:20"
+      },
+      {
+        "tripId": "BNSF_BN2016_V1_F",
+        "direction": "outbound",
+        "departureTime": "12:45",
+        "arrivalTime": "13:20"
+      },
+      {
+        "tripId": "BNSF_BN2018_V1_F",
+        "direction": "outbound",
+        "departureTime": "13:45",
+        "arrivalTime": "14:20"
+      },
+      {
+        "tripId": "BNSF_BN2020_V1_F",
+        "direction": "outbound",
+        "departureTime": "14:45",
+        "arrivalTime": "15:20"
+      },
+      {
+        "tripId": "BNSF_BN2024_V1_F",
+        "direction": "outbound",
+        "departureTime": "15:45",
+        "arrivalTime": "16:20"
+      },
+      {
+        "tripId": "BNSF_BN2026_V1_F",
+        "direction": "outbound",
+        "departureTime": "16:45",
+        "arrivalTime": "17:20"
+      },
+      {
+        "tripId": "BNSF_BN2028_V1_F",
+        "direction": "outbound",
+        "departureTime": "17:45",
+        "arrivalTime": "18:20"
+      },
+      {
+        "tripId": "BNSF_BN2030_V1_F",
+        "direction": "outbound",
+        "departureTime": "18:45",
+        "arrivalTime": "19:20"
+      },
+      {
+        "tripId": "BNSF_BN2032_V1_F",
+        "direction": "outbound",
+        "departureTime": "19:45",
+        "arrivalTime": "20:20"
+      },
+      {
+        "tripId": "BNSF_BN2034_V1_F",
+        "direction": "outbound",
+        "departureTime": "20:45",
+        "arrivalTime": "21:20"
+      },
+      {
+        "tripId": "BNSF_BN2036_V1_F",
+        "direction": "outbound",
+        "departureTime": "21:45",
+        "arrivalTime": "22:20"
+      },
+      {
+        "tripId": "BNSF_BN2040_V1_F",
+        "direction": "outbound",
+        "departureTime": "23:45",
+        "arrivalTime": "00:20"
+      }
+    ],
+    "return": [
+      {
+        "tripId": "BNSF_BN2001_V2_F",
+        "direction": "return",
+        "departureTime": "06:33",
+        "arrivalTime": "07:04"
+      },
+      {
+        "tripId": "BNSF_BN2005_V3_F",
+        "direction": "return",
+        "departureTime": "08:33",
+        "arrivalTime": "09:04"
+      },
+      {
+        "tripId": "BNSF_BN2007_V1_F",
+        "direction": "return",
+        "departureTime": "09:33",
+        "arrivalTime": "10:04"
+      },
+      {
+        "tripId": "BNSF_BN2009_V1_F",
+        "direction": "return",
+        "departureTime": "10:33",
+        "arrivalTime": "11:04"
+      },
+      {
+        "tripId": "BNSF_BN2011_V1_F",
+        "direction": "return",
+        "departureTime": "11:33",
+        "arrivalTime": "12:04"
+      },
+      {
+        "tripId": "BNSF_BN2013_V1_F",
+        "direction": "return",
+        "departureTime": "12:33",
+        "arrivalTime": "13:04"
+      },
+      {
+        "tripId": "BNSF_BN2015_V1_F",
+        "direction": "return",
+        "departureTime": "13:33",
+        "arrivalTime": "14:04"
+      },
+      {
+        "tripId": "BNSF_BN2017_V1_F",
+        "direction": "return",
+        "departureTime": "14:33",
+        "arrivalTime": "15:04"
+      },
+      {
+        "tripId": "BNSF_BN2019_V1_F",
+        "direction": "return",
+        "departureTime": "15:33",
+        "arrivalTime": "16:04"
+      },
+      {
+        "tripId": "BNSF_BN2021_V1_F",
+        "direction": "return",
+        "departureTime": "16:33",
+        "arrivalTime": "17:04"
+      },
+      {
+        "tripId": "BNSF_BN2025_V1_F",
+        "direction": "return",
+        "departureTime": "17:33",
+        "arrivalTime": "18:04"
+      },
+      {
+        "tripId": "BNSF_BN2027_V1_F",
+        "direction": "return",
+        "departureTime": "18:33",
+        "arrivalTime": "19:04"
+      },
+      {
+        "tripId": "BNSF_BN2029_V1_F",
+        "direction": "return",
+        "departureTime": "19:33",
+        "arrivalTime": "20:04"
+      },
+      {
+        "tripId": "BNSF_BN2031_V1_F",
+        "direction": "return",
+        "departureTime": "20:33",
+        "arrivalTime": "21:04"
+      },
+      {
+        "tripId": "BNSF_BN2033_V1_F",
+        "direction": "return",
+        "departureTime": "21:33",
+        "arrivalTime": "22:04"
+      },
+      {
+        "tripId": "BNSF_BN2035_V1_F",
+        "direction": "return",
+        "departureTime": "22:33",
+        "arrivalTime": "23:04"
+      },
+      {
+        "tripId": "BNSF_BN2037_V1_F",
+        "direction": "return",
+        "departureTime": "23:33",
+        "arrivalTime": "00:04"
+      },
+      {
+        "tripId": "BNSF_BN2039_V1_F",
+        "direction": "return",
+        "departureTime": "00:33",
+        "arrivalTime": "01:04"
+      }
+    ]
+  }
+}

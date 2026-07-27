@@ -1,0 +1,1522 @@
+[
+  {
+    "id": "thu-tmobile-asha-banks",
+    "name": "Asha Banks",
+    "day": "thursday",
+    "stageId": "tmobile",
+    "startTime": "12:45",
+    "endTime": "13:30"
+  },
+  {
+    "id": "thu-tmobile-haute-freddy",
+    "name": "Haute & Freddy",
+    "day": "thursday",
+    "stageId": "tmobile",
+    "startTime": "14:30",
+    "endTime": "15:30"
+  },
+  {
+    "id": "thu-tmobile-5-seconds-of-summer",
+    "name": "5 Seconds of Summer",
+    "day": "thursday",
+    "stageId": "tmobile",
+    "startTime": "16:30",
+    "endTime": "17:30"
+  },
+  {
+    "id": "thu-tmobile-sombr",
+    "name": "Sombr",
+    "day": "thursday",
+    "stageId": "tmobile",
+    "startTime": "18:30",
+    "endTime": "19:30"
+  },
+  {
+    "id": "thu-tmobile-lorde",
+    "name": "Lorde",
+    "day": "thursday",
+    "stageId": "tmobile",
+    "startTime": "20:30",
+    "endTime": "22:00"
+  },
+  {
+    "id": "thu-perrys-klo",
+    "name": "KLO",
+    "day": "thursday",
+    "stageId": "perrys",
+    "startTime": "12:00",
+    "endTime": "12:30"
+  },
+  {
+    "id": "thu-perrys-know-good",
+    "name": "Know Good",
+    "day": "thursday",
+    "stageId": "perrys",
+    "startTime": "12:45",
+    "endTime": "13:30"
+  },
+  {
+    "id": "thu-perrys-devault",
+    "name": "Devault",
+    "day": "thursday",
+    "stageId": "perrys",
+    "startTime": "13:45",
+    "endTime": "14:45"
+  },
+  {
+    "id": "thu-perrys-mph",
+    "name": "MPH",
+    "day": "thursday",
+    "stageId": "perrys",
+    "startTime": "15:00",
+    "endTime": "16:00"
+  },
+  {
+    "id": "thu-perrys-boys-noize",
+    "name": "Boys Noize",
+    "day": "thursday",
+    "stageId": "perrys",
+    "startTime": "16:15",
+    "endTime": "17:15"
+  },
+  {
+    "id": "thu-perrys-boris-brejcha",
+    "name": "Boris Brejcha",
+    "day": "thursday",
+    "stageId": "perrys",
+    "startTime": "17:45",
+    "endTime": "18:45"
+  },
+  {
+    "id": "thu-perrys-kettama",
+    "name": "Kettama",
+    "day": "thursday",
+    "stageId": "perrys",
+    "startTime": "19:00",
+    "endTime": "20:00"
+  },
+  {
+    "id": "thu-perrys-worship",
+    "name": "Worship",
+    "day": "thursday",
+    "stageId": "perrys",
+    "startTime": "20:30",
+    "endTime": "21:45"
+  },
+  {
+    "id": "thu-allianz-pearly-drops",
+    "name": "Pearly Drops",
+    "day": "thursday",
+    "stageId": "allianz",
+    "startTime": "12:00",
+    "endTime": "12:45"
+  },
+  {
+    "id": "thu-allianz-bad-nerves",
+    "name": "Bad Nerves",
+    "day": "thursday",
+    "stageId": "allianz",
+    "startTime": "13:30",
+    "endTime": "14:30"
+  },
+  {
+    "id": "thu-allianz-sb19",
+    "name": "SB19",
+    "day": "thursday",
+    "stageId": "allianz",
+    "startTime": "15:30",
+    "endTime": "16:30"
+  },
+  {
+    "id": "thu-allianz-audrey-hobert",
+    "name": "Audrey Hobert",
+    "day": "thursday",
+    "stageId": "allianz",
+    "startTime": "17:30",
+    "endTime": "18:30"
+  },
+  {
+    "id": "thu-allianz-wet-leg",
+    "name": "Wet Leg",
+    "day": "thursday",
+    "stageId": "allianz",
+    "startTime": "19:30",
+    "endTime": "20:30"
+  },
+  {
+    "id": "thu-kidzapalooza-mister-g",
+    "name": "Mister G",
+    "day": "thursday",
+    "stageId": "kidzapalooza",
+    "startTime": "12:00",
+    "endTime": "12:30"
+  },
+  {
+    "id": "thu-kidzapalooza-school-of-rock",
+    "name": "School of Rock",
+    "day": "thursday",
+    "stageId": "kidzapalooza",
+    "startTime": "13:30",
+    "endTime": "14:00"
+  },
+  {
+    "id": "thu-kidzapalooza-miss-tutti-the-fruity-band",
+    "name": "Miss Tutti & The Fruity Band",
+    "day": "thursday",
+    "stageId": "kidzapalooza",
+    "startTime": "15:00",
+    "endTime": "15:30"
+  },
+  {
+    "id": "thu-kidzapalooza-jazzy-ash",
+    "name": "Jazzy Ash",
+    "day": "thursday",
+    "stageId": "kidzapalooza",
+    "startTime": "17:15",
+    "endTime": "17:45"
+  },
+  {
+    "id": "thu-bmi-the-braymores",
+    "name": "The Braymores",
+    "day": "thursday",
+    "stageId": "bmi",
+    "startTime": "13:00",
+    "endTime": "13:40"
+  },
+  {
+    "id": "thu-bmi-simon-grossmann",
+    "name": "Simon Grossmann",
+    "day": "thursday",
+    "stageId": "bmi",
+    "startTime": "14:10",
+    "endTime": "14:50"
+  },
+  {
+    "id": "thu-bmi-elizabeth-nichols",
+    "name": "Elizabeth Nichols",
+    "day": "thursday",
+    "stageId": "bmi",
+    "startTime": "15:20",
+    "endTime": "16:00"
+  },
+  {
+    "id": "thu-bmi-bella-kay",
+    "name": "Bella Kay",
+    "day": "thursday",
+    "stageId": "bmi",
+    "startTime": "16:30",
+    "endTime": "17:10"
+  },
+  {
+    "id": "thu-bmi-chalk",
+    "name": "Chalk",
+    "day": "thursday",
+    "stageId": "bmi",
+    "startTime": "17:40",
+    "endTime": "18:20"
+  },
+  {
+    "id": "thu-bmi-evening-elephants",
+    "name": "Evening Elephants",
+    "day": "thursday",
+    "stageId": "bmi",
+    "startTime": "18:50",
+    "endTime": "19:30"
+  },
+  {
+    "id": "thu-airbnb-kim-theory",
+    "name": "Kim Theory",
+    "day": "thursday",
+    "stageId": "airbnb",
+    "startTime": "12:00",
+    "endTime": "12:30"
+  },
+  {
+    "id": "thu-airbnb-penelope-road",
+    "name": "Penelope Road",
+    "day": "thursday",
+    "stageId": "airbnb",
+    "startTime": "12:50",
+    "endTime": "13:30"
+  },
+  {
+    "id": "thu-airbnb-marlon-funaki",
+    "name": "Marlon Funaki",
+    "day": "thursday",
+    "stageId": "airbnb",
+    "startTime": "13:50",
+    "endTime": "14:30"
+  },
+  {
+    "id": "thu-airbnb-ecca-vandal",
+    "name": "Ecca Vandal",
+    "day": "thursday",
+    "stageId": "airbnb",
+    "startTime": "14:50",
+    "endTime": "15:30"
+  },
+  {
+    "id": "thu-airbnb-ninajirachi",
+    "name": "Ninajirachi",
+    "day": "thursday",
+    "stageId": "airbnb",
+    "startTime": "16:00",
+    "endTime": "16:45"
+  },
+  {
+    "id": "thu-airbnb-amble",
+    "name": "Amble",
+    "day": "thursday",
+    "stageId": "airbnb",
+    "startTime": "17:15",
+    "endTime": "18:00"
+  },
+  {
+    "id": "thu-airbnb-cmat",
+    "name": "CMAT",
+    "day": "thursday",
+    "stageId": "airbnb",
+    "startTime": "18:30",
+    "endTime": "19:15"
+  },
+  {
+    "id": "thu-airbnb-snow-strippers",
+    "name": "Snow Strippers",
+    "day": "thursday",
+    "stageId": "airbnb",
+    "startTime": "19:45",
+    "endTime": "20:30"
+  },
+  {
+    "id": "thu-airbnb-viagra-boys",
+    "name": "Viagra Boys",
+    "day": "thursday",
+    "stageId": "airbnb",
+    "startTime": "21:00",
+    "endTime": "22:00"
+  },
+  {
+    "id": "thu-titos-faouzia",
+    "name": "Faouzia",
+    "day": "thursday",
+    "stageId": "titos",
+    "startTime": "12:15",
+    "endTime": "13:00"
+  },
+  {
+    "id": "thu-titos-kingfishr",
+    "name": "Kingfishr",
+    "day": "thursday",
+    "stageId": "titos",
+    "startTime": "13:45",
+    "endTime": "14:45"
+  },
+  {
+    "id": "thu-titos-paris-paloma",
+    "name": "Paris Paloma",
+    "day": "thursday",
+    "stageId": "titos",
+    "startTime": "15:45",
+    "endTime": "16:45"
+  },
+  {
+    "id": "thu-titos-little-simz",
+    "name": "Little Simz",
+    "day": "thursday",
+    "stageId": "titos",
+    "startTime": "17:45",
+    "endTime": "18:30"
+  },
+  {
+    "id": "thu-titos-devault",
+    "name": "Devault",
+    "day": "thursday",
+    "stageId": "titos",
+    "startTime": "19:30",
+    "endTime": "20:30"
+  },
+  {
+    "id": "thu-budlight-bixby",
+    "name": "Bixby",
+    "day": "thursday",
+    "stageId": "budlight",
+    "startTime": "13:00",
+    "endTime": "13:45"
+  },
+  {
+    "id": "thu-budlight-between-friends",
+    "name": "Between Friends",
+    "day": "thursday",
+    "stageId": "budlight",
+    "startTime": "14:45",
+    "endTime": "15:45"
+  },
+  {
+    "id": "thu-budlight-blood-orange",
+    "name": "Blood Orange",
+    "day": "thursday",
+    "stageId": "budlight",
+    "startTime": "16:45",
+    "endTime": "17:45"
+  },
+  {
+    "id": "thu-budlight-empire-of-the-sun",
+    "name": "Empire of the Sun",
+    "day": "thursday",
+    "stageId": "budlight",
+    "startTime": "18:30",
+    "endTime": "19:30"
+  },
+  {
+    "id": "thu-budlight-john-summit",
+    "name": "John Summit",
+    "day": "thursday",
+    "stageId": "budlight",
+    "startTime": "20:30",
+    "endTime": "22:00"
+  },
+  {
+    "id": "fri-tmobile-partyof2",
+    "name": "PartyOf2",
+    "day": "friday",
+    "stageId": "tmobile",
+    "startTime": "12:55",
+    "endTime": "13:40"
+  },
+  {
+    "id": "fri-tmobile-i-dle",
+    "name": "I-DLE",
+    "day": "friday",
+    "stageId": "tmobile",
+    "startTime": "14:40",
+    "endTime": "15:40"
+  },
+  {
+    "id": "fri-tmobile-zara-larsson",
+    "name": "Zara Larsson",
+    "day": "friday",
+    "stageId": "tmobile",
+    "startTime": "16:40",
+    "endTime": "17:40"
+  },
+  {
+    "id": "fri-tmobile-lil-uzi-vert",
+    "name": "Lil Uzi Vert",
+    "day": "friday",
+    "stageId": "tmobile",
+    "startTime": "18:40",
+    "endTime": "19:40"
+  },
+  {
+    "id": "fri-tmobile-charli-xcx",
+    "name": "Charli XCX",
+    "day": "friday",
+    "stageId": "tmobile",
+    "startTime": "20:40",
+    "endTime": "22:00"
+  },
+  {
+    "id": "fri-perrys-bradeazy",
+    "name": "Bradeazy",
+    "day": "friday",
+    "stageId": "perrys",
+    "startTime": "12:00",
+    "endTime": "12:30"
+  },
+  {
+    "id": "fri-perrys-avello",
+    "name": "Avello",
+    "day": "friday",
+    "stageId": "perrys",
+    "startTime": "12:45",
+    "endTime": "13:30"
+  },
+  {
+    "id": "fri-perrys-lyny",
+    "name": "Lyny",
+    "day": "friday",
+    "stageId": "perrys",
+    "startTime": "13:45",
+    "endTime": "14:45"
+  },
+  {
+    "id": "fri-perrys-r-z",
+    "name": "Røz",
+    "day": "friday",
+    "stageId": "perrys",
+    "startTime": "15:00",
+    "endTime": "16:00"
+  },
+  {
+    "id": "fri-perrys-notion",
+    "name": "Notion",
+    "day": "friday",
+    "stageId": "perrys",
+    "startTime": "16:15",
+    "endTime": "17:15"
+  },
+  {
+    "id": "fri-perrys-sidepiece",
+    "name": "Sidepiece",
+    "day": "friday",
+    "stageId": "perrys",
+    "startTime": "17:45",
+    "endTime": "18:45"
+  },
+  {
+    "id": "fri-perrys-mustard",
+    "name": "Mustard",
+    "day": "friday",
+    "stageId": "perrys",
+    "startTime": "19:00",
+    "endTime": "20:00"
+  },
+  {
+    "id": "fri-perrys-major-lazer",
+    "name": "Major Lazer",
+    "day": "friday",
+    "stageId": "perrys",
+    "startTime": "20:30",
+    "endTime": "21:45"
+  },
+  {
+    "id": "fri-allianz-the-army-the-navy",
+    "name": "The Army, The Navy",
+    "day": "friday",
+    "stageId": "allianz",
+    "startTime": "12:10",
+    "endTime": "12:55"
+  },
+  {
+    "id": "fri-allianz-claire-rosinkranz",
+    "name": "Claire Rosinkranz",
+    "day": "friday",
+    "stageId": "allianz",
+    "startTime": "13:40",
+    "endTime": "14:40"
+  },
+  {
+    "id": "fri-allianz-skye-newman",
+    "name": "Skye Newman",
+    "day": "friday",
+    "stageId": "allianz",
+    "startTime": "15:40",
+    "endTime": "16:40"
+  },
+  {
+    "id": "fri-allianz-suki-waterhouse",
+    "name": "Suki Waterhouse",
+    "day": "friday",
+    "stageId": "allianz",
+    "startTime": "17:40",
+    "endTime": "18:40"
+  },
+  {
+    "id": "fri-allianz-not-for-radio",
+    "name": "Not for Radio",
+    "day": "friday",
+    "stageId": "allianz",
+    "startTime": "19:40",
+    "endTime": "20:40"
+  },
+  {
+    "id": "fri-kidzapalooza-miss-tutti-the-fruity-band",
+    "name": "Miss Tutti & The Fruity Band",
+    "day": "friday",
+    "stageId": "kidzapalooza",
+    "startTime": "12:00",
+    "endTime": "12:30"
+  },
+  {
+    "id": "fri-kidzapalooza-mister-g",
+    "name": "Mister G",
+    "day": "friday",
+    "stageId": "kidzapalooza",
+    "startTime": "13:30",
+    "endTime": "14:00"
+  },
+  {
+    "id": "fri-kidzapalooza-jazzy-ash",
+    "name": "Jazzy Ash",
+    "day": "friday",
+    "stageId": "kidzapalooza",
+    "startTime": "15:00",
+    "endTime": "15:30"
+  },
+  {
+    "id": "fri-kidzapalooza-school-of-rock",
+    "name": "School of Rock",
+    "day": "friday",
+    "stageId": "kidzapalooza",
+    "startTime": "17:15",
+    "endTime": "17:45"
+  },
+  {
+    "id": "fri-bmi-valencia-grace",
+    "name": "Valencia Grace",
+    "day": "friday",
+    "stageId": "bmi",
+    "startTime": "13:00",
+    "endTime": "13:40"
+  },
+  {
+    "id": "fri-bmi-ella-boh",
+    "name": "Ella Boh",
+    "day": "friday",
+    "stageId": "bmi",
+    "startTime": "14:10",
+    "endTime": "14:50"
+  },
+  {
+    "id": "fri-bmi-emi-grace",
+    "name": "Emi Grace",
+    "day": "friday",
+    "stageId": "bmi",
+    "startTime": "15:20",
+    "endTime": "16:00"
+  },
+  {
+    "id": "fri-bmi-ivri",
+    "name": "Ivri",
+    "day": "friday",
+    "stageId": "bmi",
+    "startTime": "16:30",
+    "endTime": "17:10"
+  },
+  {
+    "id": "fri-bmi-ella-red",
+    "name": "Ella Red",
+    "day": "friday",
+    "stageId": "bmi",
+    "startTime": "17:40",
+    "endTime": "18:20"
+  },
+  {
+    "id": "fri-bmi-whitney-whitney",
+    "name": "Whitney Whitney",
+    "day": "friday",
+    "stageId": "bmi",
+    "startTime": "18:50",
+    "endTime": "19:30"
+  },
+  {
+    "id": "fri-airbnb-beno",
+    "name": "Beno",
+    "day": "friday",
+    "stageId": "airbnb",
+    "startTime": "12:00",
+    "endTime": "12:30"
+  },
+  {
+    "id": "fri-airbnb-day-we-ran",
+    "name": "Day We Ran",
+    "day": "friday",
+    "stageId": "airbnb",
+    "startTime": "12:50",
+    "endTime": "13:30"
+  },
+  {
+    "id": "fri-airbnb-love-spells",
+    "name": "Love Spells",
+    "day": "friday",
+    "stageId": "airbnb",
+    "startTime": "13:50",
+    "endTime": "14:30"
+  },
+  {
+    "id": "fri-airbnb-54-ultra",
+    "name": "54 Ultra",
+    "day": "friday",
+    "stageId": "airbnb",
+    "startTime": "14:50",
+    "endTime": "15:30"
+  },
+  {
+    "id": "fri-airbnb-finn-wolfhard",
+    "name": "Finn Wolfhard",
+    "day": "friday",
+    "stageId": "airbnb",
+    "startTime": "16:00",
+    "endTime": "16:45"
+  },
+  {
+    "id": "fri-airbnb-oklou",
+    "name": "Oklou",
+    "day": "friday",
+    "stageId": "airbnb",
+    "startTime": "17:30",
+    "endTime": "18:15"
+  },
+  {
+    "id": "fri-airbnb-balu-brigada",
+    "name": "Balu Brigada",
+    "day": "friday",
+    "stageId": "airbnb",
+    "startTime": "18:45",
+    "endTime": "19:30"
+  },
+  {
+    "id": "fri-airbnb-horsegiirl",
+    "name": "Horsegiirl",
+    "day": "friday",
+    "stageId": "airbnb",
+    "startTime": "20:00",
+    "endTime": "20:45"
+  },
+  {
+    "id": "fri-airbnb-freddie-gibbs",
+    "name": "Freddie Gibbs",
+    "day": "friday",
+    "stageId": "airbnb",
+    "startTime": "21:15",
+    "endTime": "22:00"
+  },
+  {
+    "id": "fri-titos-chicago-made",
+    "name": "Chicago Made",
+    "day": "friday",
+    "stageId": "titos",
+    "startTime": "12:30",
+    "endTime": "13:15"
+  },
+  {
+    "id": "fri-titos-julia-wolf",
+    "name": "Julia Wolf",
+    "day": "friday",
+    "stageId": "titos",
+    "startTime": "14:00",
+    "endTime": "14:45"
+  },
+  {
+    "id": "fri-titos-mother-mother",
+    "name": "Mother Mother",
+    "day": "friday",
+    "stageId": "titos",
+    "startTime": "15:30",
+    "endTime": "16:30"
+  },
+  {
+    "id": "fri-titos-loathe",
+    "name": "Loathe",
+    "day": "friday",
+    "stageId": "titos",
+    "startTime": "17:30",
+    "endTime": "18:30"
+  },
+  {
+    "id": "fri-titos-nettspend",
+    "name": "Nettspend",
+    "day": "friday",
+    "stageId": "titos",
+    "startTime": "19:30",
+    "endTime": "20:30"
+  },
+  {
+    "id": "fri-budlight-high-vis",
+    "name": "High Vis",
+    "day": "friday",
+    "stageId": "budlight",
+    "startTime": "13:15",
+    "endTime": "14:00"
+  },
+  {
+    "id": "fri-budlight-slayyyter",
+    "name": "Slayyyter",
+    "day": "friday",
+    "stageId": "budlight",
+    "startTime": "14:45",
+    "endTime": "15:30"
+  },
+  {
+    "id": "fri-budlight-the-story-so-far",
+    "name": "The Story So Far",
+    "day": "friday",
+    "stageId": "budlight",
+    "startTime": "16:30",
+    "endTime": "17:30"
+  },
+  {
+    "id": "fri-budlight-yungblud",
+    "name": "Yungblud",
+    "day": "friday",
+    "stageId": "budlight",
+    "startTime": "18:30",
+    "endTime": "19:30"
+  },
+  {
+    "id": "fri-budlight-the-smashing-pumpkins",
+    "name": "The Smashing Pumpkins",
+    "day": "friday",
+    "stageId": "budlight",
+    "startTime": "20:30",
+    "endTime": "22:00"
+  },
+  {
+    "id": "sat-tmobile-lucy-bedroque",
+    "name": "Lucy Bedroque",
+    "day": "saturday",
+    "stageId": "tmobile",
+    "startTime": "13:10",
+    "endTime": "13:55"
+  },
+  {
+    "id": "sat-tmobile-cortis",
+    "name": "Cortis",
+    "day": "saturday",
+    "stageId": "tmobile",
+    "startTime": "14:55",
+    "endTime": "15:45"
+  },
+  {
+    "id": "sat-tmobile-leon-thomas",
+    "name": "Leon Thomas",
+    "day": "saturday",
+    "stageId": "tmobile",
+    "startTime": "16:30",
+    "endTime": "17:30"
+  },
+  {
+    "id": "sat-tmobile-the-neighbourhood",
+    "name": "The Neighbourhood",
+    "day": "saturday",
+    "stageId": "tmobile",
+    "startTime": "18:30",
+    "endTime": "19:30"
+  },
+  {
+    "id": "sat-tmobile-olivia-dean",
+    "name": "Olivia Dean",
+    "day": "saturday",
+    "stageId": "tmobile",
+    "startTime": "20:30",
+    "endTime": "22:00"
+  },
+  {
+    "id": "sat-perrys-peace-control",
+    "name": "Peace Control",
+    "day": "saturday",
+    "stageId": "perrys",
+    "startTime": "12:00",
+    "endTime": "12:30"
+  },
+  {
+    "id": "sat-perrys-mc4d",
+    "name": "MC4D",
+    "day": "saturday",
+    "stageId": "perrys",
+    "startTime": "12:45",
+    "endTime": "13:30"
+  },
+  {
+    "id": "sat-perrys-omnom",
+    "name": "Omnom",
+    "day": "saturday",
+    "stageId": "perrys",
+    "startTime": "13:45",
+    "endTime": "14:45"
+  },
+  {
+    "id": "sat-perrys-ayybo",
+    "name": "Ayybo",
+    "day": "saturday",
+    "stageId": "perrys",
+    "startTime": "15:00",
+    "endTime": "16:00"
+  },
+  {
+    "id": "sat-perrys-whethan",
+    "name": "Whethan",
+    "day": "saturday",
+    "stageId": "perrys",
+    "startTime": "16:15",
+    "endTime": "17:15"
+  },
+  {
+    "id": "sat-perrys-max-styler",
+    "name": "Max Styler",
+    "day": "saturday",
+    "stageId": "perrys",
+    "startTime": "17:45",
+    "endTime": "18:45"
+  },
+  {
+    "id": "sat-perrys-alison-wonderland",
+    "name": "Alison Wonderland",
+    "day": "saturday",
+    "stageId": "perrys",
+    "startTime": "19:00",
+    "endTime": "20:00"
+  },
+  {
+    "id": "sat-perrys-disco-lines",
+    "name": "Disco Lines",
+    "day": "saturday",
+    "stageId": "perrys",
+    "startTime": "20:30",
+    "endTime": "21:45"
+  },
+  {
+    "id": "sat-allianz-sunday-1994",
+    "name": "Sunday (1994)",
+    "day": "saturday",
+    "stageId": "allianz",
+    "startTime": "12:25",
+    "endTime": "13:10"
+  },
+  {
+    "id": "sat-allianz-wisp",
+    "name": "Wisp",
+    "day": "saturday",
+    "stageId": "allianz",
+    "startTime": "13:55",
+    "endTime": "14:55"
+  },
+  {
+    "id": "sat-allianz-khamari",
+    "name": "Khamari",
+    "day": "saturday",
+    "stageId": "allianz",
+    "startTime": "15:45",
+    "endTime": "16:30"
+  },
+  {
+    "id": "sat-allianz-spacey-jane",
+    "name": "Spacey Jane",
+    "day": "saturday",
+    "stageId": "allianz",
+    "startTime": "17:30",
+    "endTime": "18:30"
+  },
+  {
+    "id": "sat-allianz-geese",
+    "name": "Geese",
+    "day": "saturday",
+    "stageId": "allianz",
+    "startTime": "19:30",
+    "endTime": "20:30"
+  },
+  {
+    "id": "sat-kidzapalooza-flor-bromley",
+    "name": "Flor Bromley",
+    "day": "saturday",
+    "stageId": "kidzapalooza",
+    "startTime": "12:00",
+    "endTime": "12:30"
+  },
+  {
+    "id": "sat-kidzapalooza-mega-ran",
+    "name": "Mega Ran",
+    "day": "saturday",
+    "stageId": "kidzapalooza",
+    "startTime": "13:30",
+    "endTime": "14:00"
+  },
+  {
+    "id": "sat-kidzapalooza-lucky-diaz",
+    "name": "Lucky Diaz",
+    "day": "saturday",
+    "stageId": "kidzapalooza",
+    "startTime": "15:00",
+    "endTime": "15:30"
+  },
+  {
+    "id": "sat-kidzapalooza-special-guest-the-happiness-club",
+    "name": "Special Guest: The Happiness Club",
+    "day": "saturday",
+    "stageId": "kidzapalooza",
+    "startTime": "16:00",
+    "endTime": "16:30"
+  },
+  {
+    "id": "sat-kidzapalooza-q-brothers",
+    "name": "Q Brothers",
+    "day": "saturday",
+    "stageId": "kidzapalooza",
+    "startTime": "17:15",
+    "endTime": "17:45"
+  },
+  {
+    "id": "sat-bmi-the-creekers",
+    "name": "The Creekers",
+    "day": "saturday",
+    "stageId": "bmi",
+    "startTime": "13:00",
+    "endTime": "13:40"
+  },
+  {
+    "id": "sat-bmi-next-of-kin",
+    "name": "Next of Kin",
+    "day": "saturday",
+    "stageId": "bmi",
+    "startTime": "14:10",
+    "endTime": "14:50"
+  },
+  {
+    "id": "sat-bmi-ink",
+    "name": "Ink",
+    "day": "saturday",
+    "stageId": "bmi",
+    "startTime": "15:20",
+    "endTime": "16:00"
+  },
+  {
+    "id": "sat-bmi-calder-allen",
+    "name": "Calder Allen",
+    "day": "saturday",
+    "stageId": "bmi",
+    "startTime": "16:30",
+    "endTime": "17:10"
+  },
+  {
+    "id": "sat-bmi-jae-stephens",
+    "name": "Jae Stephens",
+    "day": "saturday",
+    "stageId": "bmi",
+    "startTime": "17:40",
+    "endTime": "18:20"
+  },
+  {
+    "id": "sat-bmi-ryman",
+    "name": "Ryman",
+    "day": "saturday",
+    "stageId": "bmi",
+    "startTime": "18:50",
+    "endTime": "19:30"
+  },
+  {
+    "id": "sat-airbnb-nat-myers",
+    "name": "Nat Myers",
+    "day": "saturday",
+    "stageId": "airbnb",
+    "startTime": "12:00",
+    "endTime": "12:30"
+  },
+  {
+    "id": "sat-airbnb-villanelle",
+    "name": "Villanelle",
+    "day": "saturday",
+    "stageId": "airbnb",
+    "startTime": "12:50",
+    "endTime": "13:30"
+  },
+  {
+    "id": "sat-airbnb-die-spitz",
+    "name": "Die Spitz",
+    "day": "saturday",
+    "stageId": "airbnb",
+    "startTime": "13:50",
+    "endTime": "14:30"
+  },
+  {
+    "id": "sat-airbnb-frost-children",
+    "name": "Frost Children",
+    "day": "saturday",
+    "stageId": "airbnb",
+    "startTime": "14:50",
+    "endTime": "15:30"
+  },
+  {
+    "id": "sat-airbnb-quadeca",
+    "name": "Quadeca",
+    "day": "saturday",
+    "stageId": "airbnb",
+    "startTime": "16:00",
+    "endTime": "16:45"
+  },
+  {
+    "id": "sat-airbnb-sienna-spiro",
+    "name": "Sienna Spiro",
+    "day": "saturday",
+    "stageId": "airbnb",
+    "startTime": "17:15",
+    "endTime": "18:00"
+  },
+  {
+    "id": "sat-airbnb-kwn",
+    "name": "KWN",
+    "day": "saturday",
+    "stageId": "airbnb",
+    "startTime": "18:30",
+    "endTime": "19:15"
+  },
+  {
+    "id": "sat-airbnb-cameron-whitcomb",
+    "name": "Cameron Whitcomb",
+    "day": "saturday",
+    "stageId": "airbnb",
+    "startTime": "19:45",
+    "endTime": "20:30"
+  },
+  {
+    "id": "sat-airbnb-dj-trixie-mattel",
+    "name": "DJ Trixie Mattel",
+    "day": "saturday",
+    "stageId": "airbnb",
+    "startTime": "21:00",
+    "endTime": "22:00"
+  },
+  {
+    "id": "sat-titos-chezile",
+    "name": "Chezile",
+    "day": "saturday",
+    "stageId": "titos",
+    "startTime": "12:30",
+    "endTime": "13:15"
+  },
+  {
+    "id": "sat-titos-goldie-boutilier",
+    "name": "Goldie Boutilier",
+    "day": "saturday",
+    "stageId": "titos",
+    "startTime": "14:00",
+    "endTime": "15:00"
+  },
+  {
+    "id": "sat-titos-momma",
+    "name": "Momma",
+    "day": "saturday",
+    "stageId": "titos",
+    "startTime": "16:00",
+    "endTime": "17:00"
+  },
+  {
+    "id": "sat-titos-bbno",
+    "name": "BBNO$",
+    "day": "saturday",
+    "stageId": "titos",
+    "startTime": "18:00",
+    "endTime": "19:00"
+  },
+  {
+    "id": "sat-titos-chicago-youth-symphony-orchestra",
+    "name": "Chicago Youth Symphony Orchestra",
+    "day": "saturday",
+    "stageId": "titos",
+    "startTime": "20:00",
+    "endTime": "20:55"
+  },
+  {
+    "id": "sat-budlight-ric-wilson",
+    "name": "Ric Wilson",
+    "day": "saturday",
+    "stageId": "budlight",
+    "startTime": "13:15",
+    "endTime": "14:00"
+  },
+  {
+    "id": "sat-budlight-wolf-alice",
+    "name": "Wolf Alice",
+    "day": "saturday",
+    "stageId": "budlight",
+    "startTime": "15:00",
+    "endTime": "16:00"
+  },
+  {
+    "id": "sat-budlight-clipse",
+    "name": "Clipse",
+    "day": "saturday",
+    "stageId": "budlight",
+    "startTime": "17:00",
+    "endTime": "18:00"
+  },
+  {
+    "id": "sat-budlight-ethel-cain",
+    "name": "Ethel Cain",
+    "day": "saturday",
+    "stageId": "budlight",
+    "startTime": "19:00",
+    "endTime": "20:00"
+  },
+  {
+    "id": "sat-budlight-jennie",
+    "name": "Jennie",
+    "day": "saturday",
+    "stageId": "budlight",
+    "startTime": "20:55",
+    "endTime": "22:00"
+  },
+  {
+    "id": "sun-tmobile-new-constellations",
+    "name": "New Constellations",
+    "day": "sunday",
+    "stageId": "tmobile",
+    "startTime": "13:15",
+    "endTime": "14:00"
+  },
+  {
+    "id": "sun-tmobile-adela",
+    "name": "Adéla",
+    "day": "sunday",
+    "stageId": "tmobile",
+    "startTime": "15:00",
+    "endTime": "15:45"
+  },
+  {
+    "id": "sun-tmobile-muna",
+    "name": "Muna",
+    "day": "sunday",
+    "stageId": "tmobile",
+    "startTime": "16:45",
+    "endTime": "17:45"
+  },
+  {
+    "id": "sun-tmobile-beabadoobee",
+    "name": "Beabadoobee",
+    "day": "sunday",
+    "stageId": "tmobile",
+    "startTime": "18:45",
+    "endTime": "19:45"
+  },
+  {
+    "id": "sun-tmobile-tate-mcrae",
+    "name": "Tate McRae",
+    "day": "sunday",
+    "stageId": "tmobile",
+    "startTime": "20:45",
+    "endTime": "22:00"
+  },
+  {
+    "id": "sun-perrys-zack-martino",
+    "name": "Zack Martino",
+    "day": "sunday",
+    "stageId": "perrys",
+    "startTime": "12:00",
+    "endTime": "12:30"
+  },
+  {
+    "id": "sun-perrys-jackie-hollander",
+    "name": "Jackie Hollander",
+    "day": "sunday",
+    "stageId": "perrys",
+    "startTime": "12:45",
+    "endTime": "13:30"
+  },
+  {
+    "id": "sun-perrys-westend",
+    "name": "Westend",
+    "day": "sunday",
+    "stageId": "perrys",
+    "startTime": "13:45",
+    "endTime": "14:45"
+  },
+  {
+    "id": "sun-perrys-riordan",
+    "name": "Riordan",
+    "day": "sunday",
+    "stageId": "perrys",
+    "startTime": "15:00",
+    "endTime": "16:00"
+  },
+  {
+    "id": "sun-perrys-dombresky",
+    "name": "Dombresky",
+    "day": "sunday",
+    "stageId": "perrys",
+    "startTime": "16:15",
+    "endTime": "17:15"
+  },
+  {
+    "id": "sun-perrys-duke-dumont",
+    "name": "Duke Dumont",
+    "day": "sunday",
+    "stageId": "perrys",
+    "startTime": "17:45",
+    "endTime": "18:45"
+  },
+  {
+    "id": "sun-perrys-eli-brown",
+    "name": "Eli Brown",
+    "day": "sunday",
+    "stageId": "perrys",
+    "startTime": "19:00",
+    "endTime": "20:00"
+  },
+  {
+    "id": "sun-perrys-the-chainsmokers",
+    "name": "The Chainsmokers",
+    "day": "sunday",
+    "stageId": "perrys",
+    "startTime": "20:30",
+    "endTime": "21:45"
+  },
+  {
+    "id": "sun-allianz-squirrel-flower",
+    "name": "Squirrel Flower",
+    "day": "sunday",
+    "stageId": "allianz",
+    "startTime": "12:30",
+    "endTime": "13:15"
+  },
+  {
+    "id": "sun-allianz-destin-conrad",
+    "name": "Destin Conrad",
+    "day": "sunday",
+    "stageId": "allianz",
+    "startTime": "14:00",
+    "endTime": "15:00"
+  },
+  {
+    "id": "sun-allianz-amber-mark",
+    "name": "Amber Mark",
+    "day": "sunday",
+    "stageId": "allianz",
+    "startTime": "15:45",
+    "endTime": "16:45"
+  },
+  {
+    "id": "sun-allianz-jade",
+    "name": "Jade",
+    "day": "sunday",
+    "stageId": "allianz",
+    "startTime": "17:45",
+    "endTime": "18:45"
+  },
+  {
+    "id": "sun-allianz-aespa",
+    "name": "Aespa",
+    "day": "sunday",
+    "stageId": "allianz",
+    "startTime": "19:45",
+    "endTime": "20:45"
+  },
+  {
+    "id": "sun-kidzapalooza-flor-bromley",
+    "name": "Flor Bromley",
+    "day": "sunday",
+    "stageId": "kidzapalooza",
+    "startTime": "12:00",
+    "endTime": "12:30"
+  },
+  {
+    "id": "sun-kidzapalooza-lucky-diaz",
+    "name": "Lucky Diaz",
+    "day": "sunday",
+    "stageId": "kidzapalooza",
+    "startTime": "13:30",
+    "endTime": "14:00"
+  },
+  {
+    "id": "sun-kidzapalooza-q-brothers",
+    "name": "Q Brothers",
+    "day": "sunday",
+    "stageId": "kidzapalooza",
+    "startTime": "15:00",
+    "endTime": "15:30"
+  },
+  {
+    "id": "sun-kidzapalooza-special-guest-the-happiness-club",
+    "name": "Special Guest: The Happiness Club",
+    "day": "sunday",
+    "stageId": "kidzapalooza",
+    "startTime": "16:00",
+    "endTime": "16:30"
+  },
+  {
+    "id": "sun-kidzapalooza-mega-ran",
+    "name": "Mega Ran",
+    "day": "sunday",
+    "stageId": "kidzapalooza",
+    "startTime": "17:15",
+    "endTime": "17:45"
+  },
+  {
+    "id": "sun-bmi-snacktime",
+    "name": "Snacktime",
+    "day": "sunday",
+    "stageId": "bmi",
+    "startTime": "13:00",
+    "endTime": "13:40"
+  },
+  {
+    "id": "sun-bmi-surfing-for-daisy",
+    "name": "Surfing for Daisy",
+    "day": "sunday",
+    "stageId": "bmi",
+    "startTime": "14:10",
+    "endTime": "14:50"
+  },
+  {
+    "id": "sun-bmi-case-oats",
+    "name": "Case Oats",
+    "day": "sunday",
+    "stageId": "bmi",
+    "startTime": "15:20",
+    "endTime": "16:00"
+  },
+  {
+    "id": "sun-bmi-justine-skye",
+    "name": "Justine Skye",
+    "day": "sunday",
+    "stageId": "bmi",
+    "startTime": "16:30",
+    "endTime": "17:10"
+  },
+  {
+    "id": "sun-bmi-porch-light",
+    "name": "Porch Light",
+    "day": "sunday",
+    "stageId": "bmi",
+    "startTime": "17:40",
+    "endTime": "18:20"
+  },
+  {
+    "id": "sun-bmi-will-swinton",
+    "name": "Will Swinton",
+    "day": "sunday",
+    "stageId": "bmi",
+    "startTime": "18:50",
+    "endTime": "19:30"
+  },
+  {
+    "id": "sun-airbnb-sunshine-benzi",
+    "name": "Sunshine Benzi",
+    "day": "sunday",
+    "stageId": "airbnb",
+    "startTime": "12:00",
+    "endTime": "12:30"
+  },
+  {
+    "id": "sun-airbnb-the-bends",
+    "name": "The Bends",
+    "day": "sunday",
+    "stageId": "airbnb",
+    "startTime": "12:50",
+    "endTime": "13:30"
+  },
+  {
+    "id": "sun-airbnb-after",
+    "name": "After",
+    "day": "sunday",
+    "stageId": "airbnb",
+    "startTime": "13:50",
+    "endTime": "14:30"
+  },
+  {
+    "id": "sun-airbnb-water-from-your-eyes",
+    "name": "Water from Your Eyes",
+    "day": "sunday",
+    "stageId": "airbnb",
+    "startTime": "14:50",
+    "endTime": "15:30"
+  },
+  {
+    "id": "sun-airbnb-inji",
+    "name": "Inji",
+    "day": "sunday",
+    "stageId": "airbnb",
+    "startTime": "16:00",
+    "endTime": "16:45"
+  },
+  {
+    "id": "sun-airbnb-los-retros",
+    "name": "Los Retros",
+    "day": "sunday",
+    "stageId": "airbnb",
+    "startTime": "17:15",
+    "endTime": "18:00"
+  },
+  {
+    "id": "sun-airbnb-monaleo",
+    "name": "Monaleo",
+    "day": "sunday",
+    "stageId": "airbnb",
+    "startTime": "18:30",
+    "endTime": "19:15"
+  },
+  {
+    "id": "sun-airbnb-stella-lefty",
+    "name": "Stella Lefty",
+    "day": "sunday",
+    "stageId": "airbnb",
+    "startTime": "19:45",
+    "endTime": "20:30"
+  },
+  {
+    "id": "sun-airbnb-ado",
+    "name": "Ado",
+    "day": "sunday",
+    "stageId": "airbnb",
+    "startTime": "21:15",
+    "endTime": "22:00"
+  },
+  {
+    "id": "sun-titos-easy-honey",
+    "name": "Easy Honey",
+    "day": "sunday",
+    "stageId": "titos",
+    "startTime": "12:45",
+    "endTime": "13:30"
+  },
+  {
+    "id": "sun-titos-cruz-beckham-and-the-breakers",
+    "name": "Cruz Beckham and the Breakers",
+    "day": "sunday",
+    "stageId": "titos",
+    "startTime": "14:15",
+    "endTime": "15:00"
+  },
+  {
+    "id": "sun-titos-wunderhorse",
+    "name": "Wunderhorse",
+    "day": "sunday",
+    "stageId": "titos",
+    "startTime": "16:00",
+    "endTime": "17:00"
+  },
+  {
+    "id": "sun-titos-hot-mulligan",
+    "name": "Hot Mulligan",
+    "day": "sunday",
+    "stageId": "titos",
+    "startTime": "18:00",
+    "endTime": "19:00"
+  },
+  {
+    "id": "sun-titos-vandelux",
+    "name": "Vandelux",
+    "day": "sunday",
+    "stageId": "titos",
+    "startTime": "20:00",
+    "endTime": "20:45"
+  },
+  {
+    "id": "sun-budlight-whatmore",
+    "name": "Whatmore",
+    "day": "sunday",
+    "stageId": "budlight",
+    "startTime": "13:30",
+    "endTime": "14:15"
+  },
+  {
+    "id": "sun-budlight-waylon-wyatt",
+    "name": "Waylon Wyatt",
+    "day": "sunday",
+    "stageId": "budlight",
+    "startTime": "15:00",
+    "endTime": "16:00"
+  },
+  {
+    "id": "sun-budlight-yoasobi",
+    "name": "Yoasobi",
+    "day": "sunday",
+    "stageId": "budlight",
+    "startTime": "17:00",
+    "endTime": "18:00"
+  },
+  {
+    "id": "sun-budlight-turnstile",
+    "name": "Turnstile",
+    "day": "sunday",
+    "stageId": "budlight",
+    "startTime": "19:00",
+    "endTime": "20:00"
+  },
+  {
+    "id": "sun-budlight-the-xx",
+    "name": "The XX",
+    "day": "sunday",
+    "stageId": "budlight",
+    "startTime": "20:45",
+    "endTime": "22:00"
+  }
+]
