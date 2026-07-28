@@ -117,7 +117,7 @@
 .artist-detail__note-field {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 8px;
 }
 
 .artist-detail__note-label {
@@ -140,6 +140,51 @@
 .artist-detail__note-field input:focus-visible {
   outline: 2px solid var(--lolla-teal);
   outline-offset: 1px;
+}
+
+.artist-detail__note-field button {
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 2px solid var(--lolla-black);
+  border-radius: var(--radius-sm);
+  background: var(--lolla-teal);
+  color: var(--lolla-black);
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+  box-shadow: var(--shadow-card);
+  transition:
+    transform var(--duration-fast) var(--ease-snap),
+    box-shadow var(--duration-fast) var(--ease-snap),
+    opacity var(--duration-fast) var(--ease-snap);
+}
+
+.artist-detail__note-field button:active:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}
+
+.artist-detail__note-field button:focus-visible {
+  outline: 3px solid var(--lolla-black);
+  outline-offset: 2px;
+}
+
+.artist-detail__note-field button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.arist-detail__note-error {
+  margin: 0;
+  padding-left: 8px;
+  border-left: 3px solid var(--lolla-coral);
+  color: var(--lolla-black);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .artist-detail__section {
