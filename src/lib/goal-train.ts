@@ -8,11 +8,21 @@ import { timeToMinutes } from './format';
 export const OUTBOUND_WALK_BUFFER_MIN = 18;
 export const RETURN_WALK_BUFFER_MIN = 20;
 
+const SERVICE_DAY_ROLLEROVER_MINUTES = 3 * 60;
+
 export type GoalTrainReason = 'no-picks' | 'no-train-found' | 'ok';
 
 export interface GoalTrainResult {
   trip: TrainTrip | null;
   reason: GoalTrainReason;
+}
+
+function serviceDayTimeToMinutes(time: string): number {
+  const minutes = timeToMinutes(time);
+
+  return minutes < SERVICE_DAY_ROLLOVER_MINUTES
+    ? minutes + 24 * 60
+    : minutes;
 }
 
 export function computeGoalTrain(
@@ -24,19 +34,35 @@ export function computeGoalTrain(
     return { trip: null, reason: 'no-picks' };
   }
 
+  const directionTrips = trips.filter(
+    (trip) => trip.direction === direction,
+  );
+
   if (direction === 'outbound') {
     const earliestStart = Math.min(...pickedArtists.map((artist) => timeToMinutes(artist.startTime)));
     const targetArrival = earliestStart - OUTBOUND_WALK_BUFFER_MIN;
     const candidates = trips
       .filter((trip) => timeToMinutes(trip.arrivalTime) <= targetArrival)
-      .sort((a, b) => timeToMinutes(b.arrivalTime) - timeToMinutes(a.arrivalTime));
-    return { trip: candidates[0] ?? null, reason: candidates[0] ? 'ok' : 'no-train-found' };
+      .sort((first, second) => timeToMinutes(first.arrivalTime) - timeToMinutes(second.arrivalTime));
+
+    const selectedTrip = candidates[0]
+    
+    return { trip: selectedTrip ?? null, reason: selectedTrip ? 'ok' : 'no-train-found' };
   }
 
-  const latestEnd = Math.max(...pickedArtists.map((artist) => timeToMinutes(artist.endTime)));
+  const latestEnd = Math.max(...pickedArtists.map((artist) => serviceDayTimeToMinutes(artist.endTime)));
   const targetDeparture = latestEnd + RETURN_WALK_BUFFER_MIN;
-  const candidates = trips
-    .filter((trip) => timeToMinutes(trip.departureTime) >= targetDeparture)
-    .sort((a, b) => timeToMinutes(a.departureTime) - timeToMinutes(b.departureTime));
-  return { trip: candidates[0] ?? null, reason: candidates[0] ? 'ok' : 'no-train-found' };
+  const candidates = directionTrips
+    .filter(
+      (trip) =>
+        serviceDayTimeToMinutes(trip.departureTime) >= targetDeparture,
+    )
+    .sort(
+      (first, second) =>
+        serviceDayTimeToMinutes(first.departureTime) - serviceDayTimeToMinutes(seconds.departureTime),
+    );
+
+  const selectedTrip = candidates[0];
+  
+  return { trip: selectedTrip ?? null, reason: selectedTrip ? 'ok' : 'no-train-found' };
 }
