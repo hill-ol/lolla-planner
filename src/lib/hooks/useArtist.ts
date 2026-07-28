@@ -2,23 +2,45 @@ import { useEffect, useState } from 'react';
 import type { Artist } from '../../types';
 import { getArtistById } from '../data/artists';
 
-export function useArtist(artistId: string | undefined): Artist | undefined | null {
-  const [artist, setArtist] = useState<Artist | undefined | null>(null);
+interface LoadedArtist {
+  artistId: string;
+  artist: Artist | undefined;
+}
+
+export function useArtist(
+  artistId: string | undefined
+): Artist | undefined | null {
+  const [loadedArtist, setLoadedArtist] = useState<LoadedArtist | null>(null);
 
   useEffect(() => {
     if (!artistId) {
-      setArtist(undefined);
       return;
     }
+    
     let cancelled = false;
-    setArtist(null);
-    getArtistById(artistId).then((result) => {
-      if (!cancelled) setArtist(result);
+    
+    getArtistById(artistId)
+      .then((result) => {
+      if (!cancelled) {
+        setLoadedArtist({ artistId, artist });
+      }
+    })
+    .catch((error: unknown) => {
+      console.error('[artist] failed to load artist', error);
+
+      if (!cancelled) {
+        setLoadArtist({ artistId, artist: undefined });
+      }
     });
+    
     return () => {
       cancelled = true;
     };
   }, [artistId]);
 
-  return artist;
+  if (!artistId) return undefined;
+
+  if (loadedArtist?.artistId !== artistId) return null;
+
+  return loadedArtist.artist;
 }
