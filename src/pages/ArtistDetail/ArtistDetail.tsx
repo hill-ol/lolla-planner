@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Star, X } from 'lucide-react';
 import { useArtist } from '../../lib/hooks/useArtist';
@@ -13,67 +13,7 @@ import { formatTime } from '../../lib/format';
 import { Sheet } from '../../components/Sheet/Sheet';
 import { FriendPicker } from '../../components/FriendPicker/FriendPicker';
 import { AttributionTag } from '../../components/AttributionTag/AttributionTag';
-import type { SchedulePick } from '../.../types';
 import './ArtistDetail.css';
-
-interface SchedulePickNoteEditorProps {
-  pick: SchedulePick;
-}
-
-function SchedulePickNoteEditor({ pick }: SchedulePickNoteEditorProps) {
-  const [draft, setDraft] = useState(pick.note ?? '');
-  const [isSaving, setIsSaving] = useState(false);
-  const [saveError, setSaveError] = useState<string | null>(null);
-
-  const normalizedDraft = draft.trim();
-  const normalizedSavedNote = (pick.note ?? '').trim();
-  const isDirty = normalizedDraft !== normalizedSavedNote;
-
-  async function saveNote() {
-    if (!isDirty || isSaving) return;
-
-    setIsSaving(true);
-    setSaveError(null);
-
-    try { 
-      await updateSchedulePickNote(pick.id, draft);
-    } catch {
-      // Keep the draft so the user does not lose what they typed.
-      setSaveError('Could not save note. Please try again.');
-    } finally {
-      setIsSaving(false);
-    }
-  }
-
-  return (
-    <div className="artist-detail__note-field">
-      <label htmlFor={`pick-note-${pick.id}`} className="artist-detail__note-label">
-        Note (optional)
-      </label>
-      <input
-        id={`pick-note-${pick.id}`}
-        type="text"
-        maxLength={300}
-        placeholder="e.g. leaving at 7:45 for train"
-        value={draft}
-        onChange{(event) => {
-          setDraft(event.target.value);
-          setSaveError(null);
-      }}
-      />
-
-      <button type="button" onClick={saveNote} disabled={!isDirty || isSaving}>
-        {isSaving ? 'Saving...' : 'Save note'}
-      </button>
-
-      {saveError && (
-        <p role="alert" className="artist-detail__note-error">
-          {saveError}
-        </p>
-      )}
-    </div>
-  );
-}
 
 export function ArtistDetail() {
   const { artistId } = useParams();
@@ -89,6 +29,16 @@ export function ArtistDetail() {
   const setActiveFriendId = useAppStore((state) => state.setActiveFriendId);
   const [newSongTitle, setNewSongTitle] = useState('');
   const pick = artist ? picks.find((candidate) => candidate.artistId === artist.id) : undefined;
+  const [noteDraft, setNoteDraft] = useState(pick?.note ?? '');
+
+  useEffect(() => {
+    if (!pick || noteDraft === (pick.note ?? '')) return;
+    const timeout = window.setTimeout(() => {
+      updateSchedulePickNote(pick.id, noteDraft);
+    }, 400);
+    return () => window.clearTimeout(timeout);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [noteDraft, pick?.id]);
 
   if (artist === null) {
     return <Sheet onClose={close}>{() => null}</Sheet>;
@@ -153,7 +103,20 @@ export function ArtistDetail() {
             </p>
           )}
 
-          {pick && <SchedulePickNoteEditor key={pick.id} pick={pick} />}
+          {pick && (
+            <div className="artist-detail__note-field">
+              <label htmlFor="pick-note" className="artist-detail__note-label">
+                Note (optional)
+              </label>
+              <input
+                id="pick-note"
+                type="text"
+                placeholder="e.g. leaving at 7:45 for the train, or NEED to see this song!!"
+                value={noteDraft}
+                onChange={(event) => setNoteDraft(event.target.value)}
+              />
+            </div>
+          )}
 
           <section className="artist-detail__section">
             <FriendPicker friends={friends} value={activeFriendId} onChange={setActiveFriendId} label="Adding as" />
